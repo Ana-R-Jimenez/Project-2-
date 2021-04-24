@@ -1,4 +1,42 @@
+// Local Path for the CSV file
 const CSVPATH_LOCAL_UNEPMPLOYMENT_STATS = "data/Local_Area_Unemployment_Statistics__LAUS_.csv"
+// RESPONSE - a promise result of all the data in the cvs file.
+const RESPONSE = d3.csv(CSVPATH_LOCAL_UNEPMPLOYMENT_STATS)
+
+
+
+// This function populates the HTML select element with the correct data
+// @Kate
+function init() {
+  const selector = d3.select("#selDataSet")
+
+  RESPONSE.then(function(unemploymentArray) { 
+    // unemploymentArray.forEach((unemploymentObj) => {
+    //   selector.append("option").attr("value", unemploymentObj["Area Type"])
+    //           .text( unemploymentObj["Area Type"])
+    // })
+    console.log(unemploymentArray)
+    //forEach and map =>
+    unemploymentArray.forEach(area=>
+      console.log(area));
+
+      //Object.entries(area)
+      
+    for (let i = 0; i < 10; ++i) {
+          selector.append("option").attr("value", unemploymentArray[i]["Area Type"])
+                  .text( unemploymentArray[i]["Area Type"])
+
+  //console.log(unemploymentArray[0]["Area Type"])
+    }
+  })
+}
+
+// @Jade
+function createGraph() {
+
+}
+
+init()
 
 // Read csv
 // Filter Metropolitian areas and Counties, loop through: d3.select?? forEach =>??? 
@@ -12,14 +50,14 @@ const CSVPATH_LOCAL_UNEPMPLOYMENT_STATS = "data/Local_Area_Unemployment_Statisti
         //data.areaName = +data.areaName
 
 // Read csv
-d3.csv(CSVPATH_LOCAL_UNEPMPLOYMENT_STATS).then(function(data) {
-  console.log(data);
-  console.log()
+// RESPONSE.then(function(data) {
+//   console.log(data);
+//   console.log()
   
-  // for (var i = 0; i < data.length; i++) {
+//   // for (var i = 0; i < data.length; i++) {
 
-  //   }
-})        
+//   //   }
+// })        
 
       // Step 1: Set up our chart
 //= ================================

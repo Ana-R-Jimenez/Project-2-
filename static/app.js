@@ -32,8 +32,22 @@ function init() {
 }
 
 // @Jade
-function createGraph() {
+function createGraph(areaType) {
+  var yearLabels = areaType.map(row =>row.Year);
+  var Labels = ;
+  RESPONSE.then(function(data){
+    var chart = new Chart('chart',{
+      type:'bar',
+      data: {
+        labels: yearLabels
+      }
+    })
+  });
+  
+}
 
+function updateChart(){
+  
 }
 
 init()

@@ -32,10 +32,14 @@ function init() {
 }
 
 // @Jade
+function yearLimit(year){
+  return year >= 2011;
+}
 function createGraph(areaType) {
-  var yearLabels = areaType.map(row =>row.Year);
-  var Labels = ;
+  //var unempLabels = areaType.map(row => row.Unemployment);
   RESPONSE.then(function(data){
+    var dataFilter = data.Year.filter(yearLimit);
+    var yearLabels = areaType.map(row => row.Year);
     var chart = new Chart('chart',{
       type:'bar',
       data: {
@@ -47,7 +51,7 @@ function createGraph(areaType) {
 }
 
 function updateChart(){
-  
+
 }
 
 init()

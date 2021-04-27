@@ -20,7 +20,7 @@ function createGraph(areaType) {
     //var chart = new Chart('chart',{
     //  type:'bar',
     //  data: {
-    //    labels: yearFilter
+    //    labels: 
     //  }
     //})
   });

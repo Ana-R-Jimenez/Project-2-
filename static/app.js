@@ -3,58 +3,60 @@ const CSVPATH_LOCAL_UNEPMPLOYMENT_STATS = "data/Local_Area_Unemployment_Statisti
 // RESPONSE - a promise result of all the data in the cvs file.
 const RESPONSE = d3.csv(CSVPATH_LOCAL_UNEPMPLOYMENT_STATS)
 
-
+//hardcode dropdown in html since there are only 3 options. 
 
 // This function populates the HTML select element with the correct data
 // @Kate
-function init() {
-  const selector = d3.select("#selDataSet")
 
-  RESPONSE.then(function(unemploymentArray) { 
-    // unemploymentArray.forEach((unemploymentObj) => {
-    //   selector.append("option").attr("value", unemploymentObj["Area Type"])
-    //           .text( unemploymentObj["Area Type"])
-    // })
-    console.log(unemploymentArray)
-    //forEach and map =>
-    unemploymentArray.forEach(area=>
-      console.log(area));
-
-      //Object.entries(area)
-      
-    for (let i = 0; i < 10; ++i) {
-          selector.append("option").attr("value", unemploymentArray[i]["Area Type"])
-                  .text( unemploymentArray[i]["Area Type"])
-
-  //console.log(unemploymentArray[0]["Area Type"])
-    }
-  })
-}
 
 // @Jade
-function yearLimit(year){
-  return year >= 2011;
-}
 function createGraph(areaType) {
   //var unempLabels = areaType.map(row => row.Unemployment);
   RESPONSE.then(function(data){
-    var dataFilter = data.Year.filter(yearLimit);
-    var yearLabels = areaType.map(row => row.Year);
-    var chart = new Chart('chart',{
-      type:'bar',
-      data: {
-        labels: yearLabels
-      }
-    })
+    var yearFilter = data.filter(function(d){return d.Year > 2011});
+    console.log(yearFilter)
+    var unempFilter = yearFilter.Unemployment;
+    
+    //var chart = new Chart('chart',{
+    //  type:'bar',
+    //  data: {
+    //    labels: yearFilter
+    //  }
+    //})
   });
   
 }
+createGraph('State')
 
 function updateChart(){
 
 }
 
-init()
+// function init() {
+//   const selector = d3.select("#selDataSet")
+
+//   RESPONSE.then(function(unemploymentArray) { 
+//     // unemploymentArray.forEach((unemploymentObj) => {
+//     //   selector.append("option").attr("value", unemploymentObj["Area Type"])
+//     //           .text( unemploymentObj["Area Type"])
+//     // })
+//     console.log(unemploymentArray)
+//     //forEach and map =>
+//     unemploymentArray.forEach(area=>
+//       console.log(area));
+
+//       //Object.entries(area)
+      
+//     for (let i = 0; i < 10; ++i) {
+//           selector.append("option").attr("value", unemploymentArray[i]["Area Type"])
+//                   .text( unemploymentArray[i]["Area Type"])
+
+//   //console.log(unemploymentArray[0]["Area Type"])
+//     }
+//   })
+// }
+
+// init()
 
 // Read csv
 // Filter Metropolitian areas and Counties, loop through: d3.select?? forEach =>??? 

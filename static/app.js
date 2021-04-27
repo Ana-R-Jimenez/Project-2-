@@ -7,7 +7,7 @@ const RESPONSE = d3.csv(CSVPATH_LOCAL_UNEPMPLOYMENT_STATS)
 
 // This function populates the HTML select element with the correct data
 // @Kate
-
+ 
 
 // @Jade
 function createGraph(areaType) {

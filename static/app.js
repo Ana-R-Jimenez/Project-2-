@@ -13,16 +13,23 @@ const RESPONSE = d3.csv(CSVPATH_LOCAL_UNEPMPLOYMENT_STATS)
 function createGraph(areaType) {
   //var unempLabels = areaType.map(row => row.Unemployment);
   RESPONSE.then(function(data){
-    var yearFilter = data.filter(function(d){return d.Year > 2011});
+    var yearFilter = data.filter(function(d){return d.Year >= 2011});
     console.log(yearFilter)
-    var unempFilter = yearFilter.Unemployment;
-    
-    //var chart = new Chart('chart',{
-    //  type:'bar',
-    //  data: {
-    //    labels: 
-    //  }
-    //})
+
+    var graphLabels = yearFilter.map(d => d.Year);
+    console.log(graphLabels)
+    var yData = yearFilter.map(d => d.Unemployment);
+    console.log(yData)
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var chart = new Chart(ctx,{
+      type:'bar',
+      data: {
+        labels:graphLabels,
+        datasets: [{
+          data: yData
+        }]
+      }
+    })
   });
   
 }

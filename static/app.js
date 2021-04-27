@@ -9,43 +9,76 @@ const RESPONSE = d3.csv(CSVPATH_LOCAL_UNEPMPLOYMENT_STATS)
 // @Kate
 
 
-// @Jade
-function createGraph(areaType) {
-  //var unempLabels = areaType.map(row => row.Unemployment);
-  RESPONSE.then(function(data){
-    var yearFilter = data.filter(function(d){return d.Year > 2011});
-    console.log(yearFilter)
-    var unempFilter = yearFilter.Unemployment;
-    
-    //var chart = new Chart('chart',{
-    //  type:'bar',
-    //  data: {
-    //    labels: 
-    //  }
-    //})
-  });
-  
-}
-createGraph('State')
+// // @Jade
+// function createGraph(areaType) {
+//   //var unempLabels = areaType.map(row => row.Unemployment);
+//   RESPONSE.then(function(data){
+//     var yearFilter = data.filter(function(d){return d.Year > 2011});
+//     console.log(yearFilter)
+//     var unempFilter = yearFilter.Unemployment;
+//     //function makeChart(years) {
+//       var yearFilter = year.map(function (d) {
+//         return d.year;
+//       });
+//       var unempData = year.map(function (d) {
+//         return d.year;
+//       });
+
+//       var chart = new Chart("myChart", {
+//         type: "bar",
+//         data: {
+//           labels: year,
+//           datasets: [
+//             {
+//               data: populationData 
+//             }
+//           ]
+//         }
+//       });
+//     }
+//     //const officersIds = year.map(year => officer.id);
+//     //var chart = new Chart('chart',{
+//     //  type:'bar',
+//     //  data: {
+//     //    labels: 
+//     //  }
+//     //})
+//   }  
+// }
+// createGraph('State')
 
 function updateChart(){
 
 }
 
-// function init() {
-//   const selector = d3.select("#selDataSet")
+function init() {
+  const selector = d3.select("#selDataSet")
+  RESPONSE.then(function(unemploymentArray) {
+  
+    var AreaTypes = []
+    unemploymentArray.forEach((unemploymentObj) => {
+      AreaTypes.push(unemploymentObj["Area Type"])
+    })
+    
+    var distinctAreaTypes  = [... new Set(AreaTypes)]
+    distinctAreaTypes.forEach(AType => {
+     selector.append("option").attr("value", distinctAreaTypes)
+             .text( distinctAreaTypes)
+    })
+}
+    
 
-//   RESPONSE.then(function(unemploymentArray) { 
-//     // unemploymentArray.forEach((unemploymentObj) => {
-//     //   selector.append("option").attr("value", unemploymentObj["Area Type"])
-//     //           .text( unemploymentObj["Area Type"])
-//     // })
+//    RESPONSE.then(function(unemploymentArray) { 
+//           unemploymentArray.forEach((unemploymentObj) => {
+//               selector.append("option").attr("value", unemploymentObj["Area Type"]
+//                        .text( unemploymentObj["Area Type"])
+// })
 //     console.log(unemploymentArray)
 //     //forEach and map =>
 //     unemploymentArray.forEach(area=>
 //       console.log(area));
 
-//       //Object.entries(area)
+     
       
 //     for (let i = 0; i < 10; ++i) {
 //           selector.append("option").attr("value", unemploymentArray[i]["Area Type"])
@@ -54,9 +87,8 @@ function updateChart(){
 //   //console.log(unemploymentArray[0]["Area Type"])
 //     }
 //   })
-// }
 
-// init()
+init()
 
 // Read csv
 // Filter Metropolitian areas and Counties, loop through: d3.select?? forEach =>??? 

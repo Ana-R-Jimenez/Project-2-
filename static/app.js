@@ -9,7 +9,6 @@ const RESPONSE = d3.csv(CSVPATH_LOCAL_UNEPMPLOYMENT_STATS)
 // @Kate
  
 
-<<<<<<< HEAD
 // @Jade
 function createGraph(areaType) {
   //var unempLabels = areaType.map(row => row.Unemployment);
@@ -21,7 +20,7 @@ function createGraph(areaType) {
     console.log(graphLabels)
     var yData = yearFilter.map(d => d.Unemployment);
     console.log(yData)
-    var ctx = document.getElementById('myChart').getContext('2d');
+    var ctx = document.getElementById('mycanvas').getContext('2d');
     var chart = new Chart(ctx,{
       type:'bar',
       data: {
@@ -35,7 +34,6 @@ function createGraph(areaType) {
   
 }
 createGraph('State')
-=======
 // // @Jade
 // function createGraph(areaType) {
 //   //var unempLabels = areaType.map(row => row.Unemployment);
@@ -73,7 +71,6 @@ createGraph('State')
 //   }  
 // }
 // createGraph('State')
->>>>>>> 02b57b8f0858685209c75c5655e97b9cb66c00ed
 
 function updateChart(){
 
@@ -93,6 +90,7 @@ function init() {
      selector.append("option").attr("value", distinctAreaTypes)
              .text( distinctAreaTypes)
     })
+  })
 }
     
 
@@ -116,7 +114,7 @@ function init() {
 //     }
 //   })
 
-init()
+//init()
 
 // Read csv
 // Filter Metropolitian areas and Counties, loop through: d3.select?? forEach =>??? 

@@ -8,10 +8,11 @@ data_yrs = data.loc[(data['Year'] >=2011)]
 
 #print(data_yrs.head())
 
-data_adjust = data_yrs.loc[(data_yrs['Seasonally Adjusted (Y/N)'] >= 'N')]
+data_adjust = data_yrs.loc[(data_yrs['Seasonally Adjusted (Y/N)'] == 'N')]
 
 #print(data_adjust)
 
 data_status = data_adjust.loc[(data_adjust['Status (Preliminary / Final)'] =="Final")]
 
-print(data_status)
+#print(data_status)
+data_status.to_csv('data/cleaned_LAUS.csv',index=False)

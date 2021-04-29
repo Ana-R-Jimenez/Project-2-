@@ -1,7 +1,7 @@
 // Local Path for the CSV file
-const CSVPATH_LOCAL_UNEPMPLOYMENT_STATS = "data/cleaned_LAUS.csv"
+const CSVPATH_LOCAL_UNEPMPLOYMENT_STATS = "data/Local_Area_Unemployment_Statistics__LAUS_.csv" 
+const CSVPATH_CLEANED_STATS = "data/cleaned_LAUS.csv"
 // RESPONSE - a promise result of all the data in the cvs file.
-const RESPONSE = d3.csv(CSVPATH_LOCAL_UNEPMPLOYMENT_STATS)
 
 //hardcode dropdown in html since there are only 3 options. 
 
@@ -12,27 +12,33 @@ const RESPONSE = d3.csv(CSVPATH_LOCAL_UNEPMPLOYMENT_STATS)
 // @Jade
 function createGraph(areaType) {
   //var unempLabels = areaType.map(row => row.Unemployment);
-  RESPONSE.then(function(data){
-    var areaFilter = data.filter(aType => aType.Area_Type ==areaType);
-    //console.log(areaFilter)
+  if (!areaType) {
+    areaType = "State"
+  }
+  
+  d3.csv(CSVPATH_CLEANED_STATS).then(function(data){
+    var filteredAreaType = data.filter(aType => aType.Area_Type ==areaType);
 
-    var graphLabels = areaFilter.map(d => d.Year);
-    var distinctYears  = [... new Set(graphLabels)]
-    console.log(graphLabels)
-    var yData = areaFilter.map(d => d.Unemployment);
-    // console.log(yData)
-    var ctx = document.getElementById('mycanvas').getContext('2d');
-    var chart = new Chart(ctx,{
+    var YearData = filteredAreaType.map(d => d.Year);
+    // console.log(filteredYears)
+    var unsortedYearLabel  = [... new Set(YearData)]
+    var sortedYearLabel  = [... new Set(YearData)].sort()
+
+    var unemploymentData = filteredAreaType.map(d => d.Unemployment);
+    console.log(YearData)
+    console.log(unemploymentData)
+
+    const ctx = document.getElementById('mycanvas').getContext('2d');
+    const chart = new Chart(ctx,{
       type:'bar',
       data: {
-        labels:distinctYears,
+        labels: unsortedYearLabel,
         datasets: [{
-          data: yData
+          data: unemploymentData 
         }]
-      }
+    }
     })
-  });
-  
+  }); 
 }
 //createGraph('State')
 // // @Jade
@@ -73,27 +79,28 @@ function createGraph(areaType) {
 // }
 // createGraph('State')
 
-function updateChart(areaType){
+function optionChanged(areaType){
   createGraph(areaType)
 }
 
 function init() {
   const selector = d3.select("#selDataset")
-  RESPONSE.then(function(unemploymentArray) {
-    var AreaTypes = []
-    unemploymentArray.forEach((unemploymentObj) => {
-      AreaTypes.push(unemploymentObj["Area_Type"])
-    })
+  const distinctAreaTypes =  ["State", "County", "Metropolitan Area", "Sub-County Place", "Metro Division", "MSA"]
+  d3.csv(CSVPATH_LOCAL_UNEPMPLOYMENT_STATS).then(function(unemploymentArray) {
+    // var AreaTypes = []
+    // unemploymentArray.forEach((unemploymentObj) => {
+    //   AreaTypes.push(unemploymentObj["Area_Type"])
+    // })
+    // var distinctAreaTypes = [... new Set(AreaTypes)]
 
-    var distinctAreaTypes  = [... new Set(AreaTypes)]
     distinctAreaTypes.forEach(AType => {
       selector.append("option")
           .attr("value",AType) 
           .text(AType)
     })
+    
     createGraph(distinctAreaTypes[0]) 
   })
-  
 }
 
  init()

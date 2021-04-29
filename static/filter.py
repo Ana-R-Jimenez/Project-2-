@@ -4,7 +4,7 @@ import pandas as pd
 
 data = pd.read_csv('data/Local_Area_Unemployment_Statistics__LAUS_.csv')
 
-data_yrs = data.loc[(data['Year'] >=2011)]
+data_yrs = data.loc[(data['Year'] >= 2011)]
 
 #print(data_yrs.head())
 

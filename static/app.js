@@ -2,7 +2,7 @@
 const CSVPATH_LOCAL_UNEPMPLOYMENT_STATS = "data/Local_Area_Unemployment_Statistics__LAUS_.csv" 
 const CSVPATH_CLEANED_STATS = "data/cleaned_LAUS.csv"
 // RESPONSE - a promise result of all the data in the cvs file.
-//import 'chartjs-plugin-colorschemes';
+
 //hardcode dropdown in html since there are only 3 options. 
 
 // This function populates the HTML select element with the correct data
@@ -12,6 +12,7 @@ const CSVPATH_CLEANED_STATS = "data/cleaned_LAUS.csv"
 // @Jade
 function createGraph(areaType) {
   //var unempLabels = areaType.map(row => row.Unemployment);
+
   if (!areaType) {
     areaType = "State"
   }
@@ -25,6 +26,7 @@ function createGraph(areaType) {
     var sortedYearLabel  = [... new Set(YearData)].sort()
 
     var unemploymentData = filteredAreaType.map(d => d.Unemployment);
+    //var maxUnemploymentData = unemploymentData.max()
     console.log(YearData)
     console.log(unemploymentData)
 
@@ -41,7 +43,14 @@ function createGraph(areaType) {
         datasets: [{
           data: unemploymentData
         }]
-    }
+      },
+      options: {
+        plugins: {
+          colorschemes: {
+            scheme: 'brewer.PuOr10'
+          }
+        }
+      }
     })
   }); 
 }
@@ -156,14 +165,14 @@ function init() {
 
       // Step 1: Set up our chart
 //= ================================
-    var svgWidth = 960;
+    var svgWidth = 1060;
     var svgHeight = 500;
 
     var margin = {
        top: 20,
-       right: 40,
+       right: 10,
        bottom: 60,
-       left: 50
+       left: 10
 };
 
     var width = svgWidth - margin.left - margin.right;

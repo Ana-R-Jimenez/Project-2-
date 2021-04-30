@@ -2,7 +2,7 @@
 const CSVPATH_LOCAL_UNEPMPLOYMENT_STATS = "data/Local_Area_Unemployment_Statistics__LAUS_.csv" 
 const CSVPATH_CLEANED_STATS = "data/cleaned_LAUS.csv"
 // RESPONSE - a promise result of all the data in the cvs file.
-
+//import 'chartjs-plugin-colorschemes';
 //hardcode dropdown in html since there are only 3 options. 
 
 // This function populates the HTML select element with the correct data
@@ -28,13 +28,18 @@ function createGraph(areaType) {
     console.log(YearData)
     console.log(unemploymentData)
 
+    
+
     const ctx = document.getElementById('mycanvas').getContext('2d');
-    const chart = new Chart(ctx,{
+    //const chart = new Chart(ctx,{
+    if(window.chart != undefined)
+    window.chart.destroy();
+    window.chart = new Chart(ctx, {
       type:'bar',
       data: {
         labels: unsortedYearLabel,
         datasets: [{
-          data: unemploymentData 
+          data: unemploymentData
         }]
     }
     })

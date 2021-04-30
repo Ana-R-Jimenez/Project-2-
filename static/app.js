@@ -90,7 +90,7 @@ function optionChanged(areaType){
 
 function init() {
   const selector = d3.select("#selDataset")
-  const distinctAreaTypes =  ["State", "County", "Metropolitan Area", "Sub-County Place", "Metro Division", "MSA"]
+  const distinctAreaTypes =  ["State", "County", "Metropolitan Area", "Metro Division", "MSA"]
   d3.csv(CSVPATH_LOCAL_UNEPMPLOYMENT_STATS).then(function(unemploymentArray) {
     // var AreaTypes = []
     // unemploymentArray.forEach((unemploymentObj) => {

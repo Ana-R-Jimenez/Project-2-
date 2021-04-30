@@ -1,41 +1,969 @@
-Year,Area_Type,Labor Force,Employment,Unemployment,Unemployment Rate 
-2011,County,220882330,194648410,26234750,95.13400000000004
-2011,Metropolitan Area,216296700,190677400,25619200,47.01900000000002
-2011,State,220881100,194647400,26234000,1.427
-2011,Sub-County Place,203216260,179198290,24013610,1443.9730000000043
-2012,County,221817620,198492670,23327170,85.94799999999987
-2012,Metropolitan Area,217307400,194530900,22777500,42.16599999999998
-2012,State,221818800,198492500,23326100,1.2619999999999998
-2012,Sub-County Place,203973320,182634380,21326180,1316.4870000000014
-2013,County,222785860,202655560,20129510,73.40900000000002
-2013,Metropolitan Area,218340300,198665900,19674600,36.33400000000002
-2013,State,222784800,202654300,20130500,1.084
-2013,Sub-County Place,205295460,186836620,18458620,1148.8210000000095
-2014,County,224120260,207175240,16946960,62.20499999999999
-2014,Metropolitan Area,219714300,203143600,16570900,31.23700000000001
-2014,State,224120300,207174300,16946100,0.907
-2014,Sub-County Place,206303600,190756370,15536670,1010.4059999999978
-2015,County,225890280,211768850,14121160,52.81799999999994
-2015,Metropolitan Area,221490800,207679900,13810300,27.042000000000026
-2015,State,225889600,211769000,14120900,0.7520000000000002
-2015,Sub-County Place,208004360,195051670,12946040,871.9689999999975
-2016,County,228144690,215586260,12559970,48.44699999999993
-2016,Metropolitan Area,223753400,211475500,12279200,24.990000000000027
-2016,State,228144200,215584900,12559400,0.6610000000000001
-2016,Sub-County Place,209730540,198422590,11292100,789.7929999999906
-2017,County,230086160,218961880,11123890,42.4379999999999
-2017,Metropolitan Area,225695500,214814000,10881000,21.813000000000017
-2017,State,230085400,218961900,11123600,0.579
-2017,Sub-County Place,212086220,202026470,10040050,693.0799999999933
-2018,County,231167430,221308810,9858490,37.26399999999996
-2018,Metropolitan Area,226788100,217144000,9645000,19.158000000000005
-2018,State,231166800,221309000,9857900,0.5119999999999999
-2018,Sub-County Place,213153490,204240360,8905690,617.7409999999943
-2019,County,232244420,222606150,9638490,36.56000000000004
-2019,Metropolitan Area,227881500,218451000,9430000,18.97700000000001
-2019,State,232245000,222606400,9638600,0.49799999999999994
-2019,Sub-County Place,214249730,205536650,8703710,584.4379999999919
-2021,County,18622130,16901490,1720250,5.084000000000001
-2021,Metropolitan Area,18273100,16581600,1691400,2.623000000000001
-2021,State,18621900,16901700,1720200,0.092
-2021,Sub-County Place,17197610,15598930,1599290,89.317
+Area_Type,Area Name,Year,Period,Labor Force,Employment,Unemployment,Unemployment Rate,Seasonally Adjusted (Y N),Status
+County,Alameda County,2008,Annual,756400,709400,47000,6.2,N,Final
+County,Alameda County,2009,Annual,760900,682900,78000,10.3,N,Final
+County,Alameda County,2010,Annual,782500,697100,85400,10.9,N,Final
+County,Alameda County,2011,Annual,786800,707400,79400,10.1,N,Final
+County,Alameda County,2012,Annual,798400,729000,69400,8.7,N,Final
+County,Alameda County,2013,Annual,802800,744800,58000,7.2,N,Final
+County,Alameda County,2014,Annual,808100,761100,47000,5.8,N,Final
+County,Alameda County,2015,Annual,819700,780800,38900,4.7,N,Final
+County,Alameda County,2016,Annual,832500,796800,35700,4.3,N,Final
+County,Alameda County,2017,Annual,840200,809400,30900,3.7,N,Final
+County,Alameda County,2018,Annual,848200,822800,25400,3.0,N,Final
+County,Alpine County,2008,Annual,470,420,50,10.5,N,Final
+County,Alpine County,2009,Annual,450,380,60,14.1,N,Final
+County,Alpine County,2010,Annual,540,470,70,12.9,N,Final
+County,Alpine County,2011,Annual,590,520,80,12.8,N,Final
+County,Alpine County,2012,Annual,540,480,60,11.2,N,Final
+County,Alpine County,2013,Annual,530,470,50,9.7,N,Final
+County,Alpine County,2014,Annual,510,470,40,8.2,N,Final
+County,Alpine County,2015,Annual,550,510,40,7.3,N,Final
+County,Alpine County,2016,Annual,560,520,40,6.5,N,Final
+County,Alpine County,2017,Annual,550,520,30,6.2,N,Final
+County,Alpine County,2018,Annual,550,520,30,4.6,N,Final
+County,Amador County,2008,Annual,17800,16430,1370,7.7,N,Final
+County,Amador County,2009,Annual,17820,15780,2040,11.4,N,Final
+County,Amador County,2010,Annual,15510,13330,2180,14.1,N,Final
+County,Amador County,2011,Annual,15100,13040,2060,13.6,N,Final
+County,Amador County,2012,Annual,14670,12870,1800,12.3,N,Final
+County,Amador County,2013,Annual,14450,12960,1490,10.3,N,Final
+County,Amador County,2014,Annual,14350,13160,1190,8.3,N,Final
+County,Amador County,2015,Annual,14330,13380,950,6.6,N,Final
+County,Amador County,2016,Annual,14530,13670,860,5.9,N,Final
+County,Amador County,2017,Annual,14730,14000,730,5.0,N,Final
+County,Amador County,2018,Annual,14710,14120,590,4.0,N,Final
+Metropolitan Area,Anaheim-Santa Ana-Irvine MD,2008,Annual,1615500,1529700,85800,5.3,N,Final
+Metropolitan Area,Anaheim-Santa Ana-Irvine MD,2009,Annual,1589300,1451700,137600,8.7,N,Final
+Metropolitan Area,Anaheim-Santa Ana-Irvine MD,2010,Annual,1537200,1387400,149700,9.7,N,Final
+Metropolitan Area,Anaheim-Santa Ana-Irvine MD,2011,Annual,1546400,1406400,140000,9.1,N,Final
+Metropolitan Area,Anaheim-Santa Ana-Irvine MD,2012,Annual,1562100,1439300,122900,7.9,N,Final
+Metropolitan Area,Anaheim-Santa Ana-Irvine MD,2013,Annual,1565300,1462300,103100,6.6,N,Final
+Metropolitan Area,Anaheim-Santa Ana-Irvine MD,2014,Annual,1569000,1482900,86100,5.5,N,Final
+Metropolitan Area,Anaheim-Santa Ana-Irvine MD,2015,Annual,1585800,1514900,70900,4.5,N,Final
+Metropolitan Area,Anaheim-Santa Ana-Irvine MD,2016,Annual,1598800,1534100,64700,4.0,N,Final
+Metropolitan Area,Anaheim-Santa Ana-Irvine MD,2017,Annual,1609800,1553400,56400,3.5,N,Final
+Metropolitan Area,Anaheim-Santa Ana-Irvine MD,2018,Annual,1625400,1577900,47500,2.9,N,Final
+Metropolitan Area,Bakersfield MSA,2008,Annual,359100,323800,35300,9.8,N,Final
+Metropolitan Area,Bakersfield MSA,2009,Annual,362700,311700,51000,14.1,N,Final
+Metropolitan Area,Bakersfield MSA,2010,Annual,371500,313400,58200,15.7,N,Final
+Metropolitan Area,Bakersfield MSA,2011,Annual,382400,325700,56700,14.8,N,Final
+Metropolitan Area,Bakersfield MSA,2012,Annual,391900,340400,51500,13.1,N,Final
+Metropolitan Area,Bakersfield MSA,2013,Annual,393400,347200,46200,11.7,N,Final
+Metropolitan Area,Bakersfield MSA,2014,Annual,392500,351700,40800,10.4,N,Final
+Metropolitan Area,Bakersfield MSA,2015,Annual,390300,350500,39900,10.2,N,Final
+Metropolitan Area,Bakersfield MSA,2016,Annual,388300,348000,40300,10.4,N,Final
+Metropolitan Area,Bakersfield MSA,2017,Annual,384800,349500,35300,9.2,N,Final
+Metropolitan Area,Bakersfield MSA,2018,Annual,387000,356100,30900,8.0,N,Final
+County,Butte County,2008,Annual,102800,94100,8700,8.5,N,Final
+County,Butte County,2009,Annual,103700,91000,12700,12.3,N,Final
+County,Butte County,2010,Annual,102600,88300,14200,13.9,N,Final
+County,Butte County,2011,Annual,100600,86900,13800,13.7,N,Final
+County,Butte County,2012,Annual,101000,88700,12300,12.2,N,Final
+County,Butte County,2013,Annual,101700,91300,10500,10.3,N,Final
+County,Butte County,2014,Annual,101200,92500,8800,8.6,N,Final
+County,Butte County,2015,Annual,101100,93900,7300,7.2,N,Final
+County,Butte County,2016,Annual,101700,95000,6700,6.6,N,Final
+County,Butte County,2017,Annual,102200,96300,5900,5.8,N,Final
+County,Butte County,2018,Annual,102700,97600,5100,4.9,N,Final
+County,Calaveras County,2008,Annual,20620,18830,1790,8.7,N,Final
+County,Calaveras County,2009,Annual,20330,17560,2760,13.6,N,Final
+County,Calaveras County,2010,Annual,21010,17980,3040,14.4,N,Final
+County,Calaveras County,2011,Annual,20670,17770,2900,14.0,N,Final
+County,Calaveras County,2012,Annual,20200,17710,2500,12.4,N,Final
+County,Calaveras County,2013,Annual,20260,18240,2010,9.9,N,Final
+County,Calaveras County,2014,Annual,20240,18620,1620,8.0,N,Final
+County,Calaveras County,2015,Annual,20570,19250,1310,6.4,N,Final
+County,Calaveras County,2016,Annual,20810,19630,1180,5.7,N,Final
+County,Calaveras County,2017,Annual,21060,20070,990,4.7,N,Final
+County,Calaveras County,2018,Annual,21350,20510,850,4.0,N,Final
+State,California,2008,Annual,18178100,16854500,1323600,7.3,N,Final
+State,California,2009,Annual,18215100,16182600,2032600,11.2,N,Final
+State,California,2010,Annual,18336300,16091900,2244300,12.2,N,Final
+State,California,2011,Annual,18415100,16258100,2157000,11.7,N,Final
+State,California,2012,Annual,18523800,16602700,1921100,10.4,N,Final
+State,California,2013,Annual,18625000,16958400,1666600,8.9,N,Final
+State,California,2014,Annual,18714700,17310900,1403800,7.5,N,Final
+State,California,2015,Annual,18851100,17681800,1169200,6.2,N,Final
+State,California,2016,Annual,19044500,18002800,1041700,5.5,N,Final
+State,California,2017,Annual,19205300,18285500,919800,4.8,N,Final
+State,California,2018,Annual,19398200,18582800,815400,4.2,N,Final
+Metropolitan Area,Chico MSA,2008,Annual,102800,94100,8700,8.5,N,Final
+Metropolitan Area,Chico MSA,2009,Annual,103700,91000,12700,12.3,N,Final
+Metropolitan Area,Chico MSA,2010,Annual,102600,88300,14200,13.9,N,Final
+Metropolitan Area,Chico MSA,2011,Annual,100600,86900,13800,13.7,N,Final
+Metropolitan Area,Chico MSA,2012,Annual,101000,88700,12300,12.2,N,Final
+Metropolitan Area,Chico MSA,2013,Annual,101700,91300,10500,10.3,N,Final
+Metropolitan Area,Chico MSA,2014,Annual,101200,92500,8800,8.6,N,Final
+Metropolitan Area,Chico MSA,2015,Annual,101100,93900,7300,7.2,N,Final
+Metropolitan Area,Chico MSA,2016,Annual,101700,95000,6700,6.6,N,Final
+Metropolitan Area,Chico MSA,2017,Annual,102200,96300,5900,5.8,N,Final
+Metropolitan Area,Chico MSA,2018,Annual,102700,97600,5100,4.9,N,Final
+County,Colusa County,2008,Annual,10500,9040,1450,13.8,N,Final
+County,Colusa County,2009,Annual,11520,9490,2030,17.6,N,Final
+County,Colusa County,2010,Annual,11520,9120,2400,20.8,N,Final
+County,Colusa County,2011,Annual,11380,8960,2420,21.2,N,Final
+County,Colusa County,2012,Annual,11270,8940,2340,20.7,N,Final
+County,Colusa County,2013,Annual,11290,9160,2140,18.9,N,Final
+County,Colusa County,2014,Annual,11090,9160,1930,17.4,N,Final
+County,Colusa County,2015,Annual,11050,9350,1700,15.4,N,Final
+County,Colusa County,2016,Annual,10910,9210,1700,15.5,N,Final
+County,Colusa County,2017,Annual,10830,9290,1540,14.2,N,Final
+County,Colusa County,2018,Annual,10970,9550,1420,12.9,N,Final
+County,Contra Costa County,2008,Annual,523700,491100,32600,6.2,N,Final
+County,Contra Costa County,2009,Annual,524800,472600,52200,10.0,N,Final
+County,Contra Costa County,2010,Annual,525500,467900,57600,11.0,N,Final
+County,Contra Costa County,2011,Annual,529600,475000,54500,10.3,N,Final
+County,Contra Costa County,2012,Annual,535800,487900,47900,8.9,N,Final
+County,Contra Costa County,2013,Annual,538000,497700,40300,7.5,N,Final
+County,Contra Costa County,2014,Annual,539600,506300,33300,6.2,N,Final
+County,Contra Costa County,2015,Annual,545100,517700,27400,5.0,N,Final
+County,Contra Costa County,2016,Annual,553600,528900,24800,4.5,N,Final
+County,Contra Costa County,2017,Annual,559200,537800,21400,3.8,N,Final
+County,Contra Costa County,2018,Annual,564600,546800,17800,3.2,N,Final
+County,Del Norte County,2008,Annual,11360,10360,1000,8.8,N,Final
+County,Del Norte County,2009,Annual,11680,10300,1380,11.8,N,Final
+County,Del Norte County,2010,Annual,10930,9490,1440,13.2,N,Final
+County,Del Norte County,2011,Annual,10900,9450,1450,13.3,N,Final
+County,Del Norte County,2012,Annual,10500,9080,1420,13.5,N,Final
+County,Del Norte County,2013,Annual,10330,9110,1220,11.8,N,Final
+County,Del Norte County,2014,Annual,9930,8930,1000,10.1,N,Final
+County,Del Norte County,2015,Annual,9860,9020,840,8.5,N,Final
+County,Del Norte County,2016,Annual,9760,9030,730,7.5,N,Final
+County,Del Norte County,2017,Annual,9720,9090,620,6.4,N,Final
+County,Del Norte County,2018,Annual,9960,9410,550,5.5,N,Final
+Metropolitan Area,El Centro MSA,2008,Annual,72400,56100,16300,22.6,N,Final
+Metropolitan Area,El Centro MSA,2009,Annual,75600,54900,20700,27.4,N,Final
+Metropolitan Area,El Centro MSA,2010,Annual,78700,56000,22700,28.8,N,Final
+Metropolitan Area,El Centro MSA,2011,Annual,79500,56500,22900,28.9,N,Final
+Metropolitan Area,El Centro MSA,2012,Annual,79300,57600,21700,27.4,N,Final
+Metropolitan Area,El Centro MSA,2013,Annual,78300,58700,19600,25.0,N,Final
+Metropolitan Area,El Centro MSA,2014,Annual,78300,59500,18800,24.0,N,Final
+Metropolitan Area,El Centro MSA,2015,Annual,76700,57900,18800,24.5,N,Final
+Metropolitan Area,El Centro MSA,2016,Annual,75200,57000,18200,24.1,N,Final
+Metropolitan Area,El Centro MSA,2017,Annual,72100,58000,14100,19.5,N,Final
+Metropolitan Area,El Centro MSA,2018,Annual,71100,58200,12900,18.1,N,Final
+County,El Dorado County,2008,Annual,90600,84300,6300,7.0,N,Final
+County,El Dorado County,2009,Annual,91700,81700,10000,10.9,N,Final
+County,El Dorado County,2010,Annual,91100,80000,11100,12.2,N,Final
+County,El Dorado County,2011,Annual,89700,79200,10500,11.7,N,Final
+County,El Dorado County,2012,Annual,89100,80000,9100,10.2,N,Final
+County,El Dorado County,2013,Annual,88600,81100,7500,8.5,N,Final
+County,El Dorado County,2014,Annual,87900,81800,6100,7.0,N,Final
+County,El Dorado County,2015,Annual,88000,82900,5000,5.7,N,Final
+County,El Dorado County,2016,Annual,88900,84300,4600,5.1,N,Final
+County,El Dorado County,2017,Annual,89900,86000,3900,4.4,N,Final
+County,El Dorado County,2018,Annual,91600,88300,3300,3.6,N,Final
+County,Fresno County,2008,Annual,429700,384300,45400,10.6,N,Final
+County,Fresno County,2009,Annual,434000,370300,63700,14.7,N,Final
+County,Fresno County,2010,Annual,439600,366200,73400,16.7,N,Final
+County,Fresno County,2011,Annual,443500,370200,73300,16.5,N,Final
+County,Fresno County,2012,Annual,440000,373500,66600,15.1,N,Final
+County,Fresno County,2013,Annual,437900,379800,58100,13.3,N,Final
+County,Fresno County,2014,Annual,438300,387500,50700,11.6,N,Final
+County,Fresno County,2015,Annual,440500,395700,44900,10.2,N,Final
+County,Fresno County,2016,Annual,445000,402700,42300,9.5,N,Final
+County,Fresno County,2017,Annual,445300,407400,37900,8.5,N,Final
+County,Fresno County,2018,Annual,448400,414900,33400,7.5,N,Final
+Metropolitan Area,Fresno MSA,2008,Annual,429700,384300,45400,10.6,N,Final
+Metropolitan Area,Fresno MSA,2009,Annual,434000,370300,63700,14.7,N,Final
+Metropolitan Area,Fresno MSA,2010,Annual,439600,366200,73400,16.7,N,Final
+Metropolitan Area,Fresno MSA,2011,Annual,443500,370200,73300,16.5,N,Final
+Metropolitan Area,Fresno MSA,2012,Annual,440000,373500,66600,15.1,N,Final
+Metropolitan Area,Fresno MSA,2013,Annual,437900,379800,58100,13.3,N,Final
+Metropolitan Area,Fresno MSA,2014,Annual,438300,387500,50700,11.6,N,Final
+Metropolitan Area,Fresno MSA,2015,Annual,440500,395700,44900,10.2,N,Final
+Metropolitan Area,Fresno MSA,2016,Annual,445000,402700,42300,9.5,N,Final
+Metropolitan Area,Fresno MSA,2017,Annual,445300,407400,37900,8.5,N,Final
+Metropolitan Area,Fresno MSA,2018,Annual,448400,414900,33400,7.5,N,Final
+County,Glenn County,2008,Annual,12180,10900,1280,10.5,N,Final
+County,Glenn County,2009,Annual,12580,10800,1780,14.1,N,Final
+County,Glenn County,2010,Annual,13220,11180,2040,15.4,N,Final
+County,Glenn County,2011,Annual,13170,11120,2040,15.5,N,Final
+County,Glenn County,2012,Annual,13150,11280,1870,14.2,N,Final
+County,Glenn County,2013,Annual,12990,11420,1570,12.1,N,Final
+County,Glenn County,2014,Annual,12800,11440,1360,10.7,N,Final
+County,Glenn County,2015,Annual,12970,11840,1130,8.7,N,Final
+County,Glenn County,2016,Annual,12960,11880,1080,8.3,N,Final
+County,Glenn County,2017,Annual,12830,11870,960,7.5,N,Final
+County,Glenn County,2018,Annual,12780,11940,830,6.5,N,Final
+Metropolitan Area,Hanford Corcoran MSA,2008,Annual,58700,52500,6200,10.6,N,Final
+Metropolitan Area,Hanford Corcoran MSA,2009,Annual,60500,51900,8600,14.2,N,Final
+Metropolitan Area,Hanford Corcoran MSA,2010,Annual,59400,49900,9600,16.1,N,Final
+Metropolitan Area,Hanford Corcoran MSA,2011,Annual,59100,49700,9400,15.9,N,Final
+Metropolitan Area,Hanford Corcoran MSA,2012,Annual,58800,50000,8800,14.9,N,Final
+Metropolitan Area,Hanford Corcoran MSA,2013,Annual,58200,50400,7800,13.4,N,Final
+Metropolitan Area,Hanford Corcoran MSA,2014,Annual,57400,50600,6800,11.9,N,Final
+Metropolitan Area,Hanford Corcoran MSA,2015,Annual,57800,51700,6100,10.5,N,Final
+Metropolitan Area,Hanford Corcoran MSA,2016,Annual,57200,51500,5700,10.0,N,Final
+Metropolitan Area,Hanford Corcoran MSA,2017,Annual,57400,52300,5100,8.9,N,Final
+Metropolitan Area,Hanford Corcoran MSA,2018,Annual,57900,53400,4500,7.7,N,Final
+County,Humboldt County,2008,Annual,60000,55600,4400,7.3,N,Final
+County,Humboldt County,2009,Annual,60800,54300,6500,10.7,N,Final
+County,Humboldt County,2010,Annual,66100,59100,7000,10.6,N,Final
+County,Humboldt County,2011,Annual,65100,58200,6900,10.6,N,Final
+County,Humboldt County,2012,Annual,64300,58100,6200,9.6,N,Final
+County,Humboldt County,2013,Annual,63100,57900,5100,8.1,N,Final
+County,Humboldt County,2014,Annual,62400,58200,4100,6.7,N,Final
+County,Humboldt County,2015,Annual,62300,58900,3500,5.6,N,Final
+County,Humboldt County,2016,Annual,62500,59400,3100,4.9,N,Final
+County,Humboldt County,2017,Annual,62600,60000,2600,4.2,N,Final
+County,Humboldt County,2018,Annual,63000,60800,2200,3.6,N,Final
+County,Imperial County,2008,Annual,72400,56100,16300,22.6,N,Final
+County,Imperial County,2009,Annual,75600,54900,20700,27.4,N,Final
+County,Imperial County,2010,Annual,78700,56000,22700,28.8,N,Final
+County,Imperial County,2011,Annual,79500,56500,22900,28.9,N,Final
+County,Imperial County,2012,Annual,79300,57600,21700,27.4,N,Final
+County,Imperial County,2013,Annual,78300,58700,19600,25.0,N,Final
+County,Imperial County,2014,Annual,78300,59500,18800,24.0,N,Final
+County,Imperial County,2015,Annual,76700,57900,18800,24.5,N,Final
+County,Imperial County,2016,Annual,75200,57000,18200,24.1,N,Final
+County,Imperial County,2017,Annual,72100,58000,14100,19.5,N,Final
+County,Imperial County,2018,Annual,71100,58200,12900,18.1,N,Final
+County,Inyo County,2008,Annual,9090,8490,600,6.6,N,Final
+County,Inyo County,2009,Annual,9390,8550,840,9.0,N,Final
+County,Inyo County,2010,Annual,9750,8810,950,9.7,N,Final
+County,Inyo County,2011,Annual,9680,8740,940,9.7,N,Final
+County,Inyo County,2012,Annual,9560,8690,870,9.1,N,Final
+County,Inyo County,2013,Annual,9390,8650,740,7.8,N,Final
+County,Inyo County,2014,Annual,9210,8580,630,6.8,N,Final
+County,Inyo County,2015,Annual,9090,8560,530,5.8,N,Final
+County,Inyo County,2016,Annual,8870,8400,470,5.3,N,Final
+County,Inyo County,2017,Annual,8630,8250,380,4.4,N,Final
+County,Inyo County,2018,Annual,8730,8390,340,3.9,N,Final
+County,Kern County,2008,Annual,359100,323800,35300,9.8,N,Final
+County,Kern County,2009,Annual,362700,311700,51000,14.1,N,Final
+County,Kern County,2010,Annual,371500,313400,58200,15.7,N,Final
+County,Kern County,2011,Annual,382400,325700,56700,14.8,N,Final
+County,Kern County,2012,Annual,391900,340400,51500,13.1,N,Final
+County,Kern County,2013,Annual,393400,347200,46200,11.7,N,Final
+County,Kern County,2014,Annual,392500,351700,40800,10.4,N,Final
+County,Kern County,2015,Annual,390300,350500,39900,10.2,N,Final
+County,Kern County,2016,Annual,388300,348000,40300,10.4,N,Final
+County,Kern County,2017,Annual,384800,349500,35300,9.2,N,Final
+County,Kern County,2018,Annual,387000,356100,30900,8.0,N,Final
+County,Kings County,2008,Annual,58700,52500,6200,10.6,N,Final
+County,Kings County,2009,Annual,60500,51900,8600,14.2,N,Final
+County,Kings County,2010,Annual,59400,49900,9600,16.1,N,Final
+County,Kings County,2011,Annual,59100,49700,9400,15.9,N,Final
+County,Kings County,2012,Annual,58800,50000,8800,14.9,N,Final
+County,Kings County,2013,Annual,58200,50400,7800,13.4,N,Final
+County,Kings County,2014,Annual,57400,50600,6800,11.9,N,Final
+County,Kings County,2015,Annual,57800,51700,6100,10.5,N,Final
+County,Kings County,2016,Annual,57200,51500,5700,10.0,N,Final
+County,Kings County,2017,Annual,57400,52300,5100,8.9,N,Final
+County,Kings County,2018,Annual,57900,53400,4500,7.7,N,Final
+County,Lake County,2008,Annual,24530,21910,2620,10.7,N,Final
+County,Lake County,2009,Annual,25370,21570,3810,15.0,N,Final
+County,Lake County,2010,Annual,29850,25340,4500,15.1,N,Final
+County,Lake County,2011,Annual,29610,25310,4300,14.5,N,Final
+County,Lake County,2012,Annual,29510,25740,3770,12.8,N,Final
+County,Lake County,2013,Annual,29260,26070,3190,10.9,N,Final
+County,Lake County,2014,Annual,29280,26670,2620,8.9,N,Final
+County,Lake County,2015,Annual,29030,26820,2200,7.6,N,Final
+County,Lake County,2016,Annual,29090,27130,1950,6.7,N,Final
+County,Lake County,2017,Annual,29370,27680,1690,5.8,N,Final
+County,Lake County,2018,Annual,29110,27590,1520,5.2,N,Final
+County,Lassen County,2008,Annual,12820,11590,1230,9.6,N,Final
+County,Lassen County,2009,Annual,13560,11890,1670,12.3,N,Final
+County,Lassen County,2010,Annual,12100,10400,1700,14.0,N,Final
+County,Lassen County,2011,Annual,11790,10190,1590,13.5,N,Final
+County,Lassen County,2012,Annual,11470,10040,1430,12.5,N,Final
+County,Lassen County,2013,Annual,11010,9840,1170,10.6,N,Final
+County,Lassen County,2014,Annual,10820,9830,980,9.1,N,Final
+County,Lassen County,2015,Annual,10770,9990,780,7.2,N,Final
+County,Lassen County,2016,Annual,10370,9650,720,6.9,N,Final
+County,Lassen County,2017,Annual,10050,9500,550,5.5,N,Final
+County,Lassen County,2018,Annual,9900,9430,470,4.8,N,Final
+County,Los Angeles County,2008,Annual,4929000,4555100,373900,7.6,N,Final
+County,Los Angeles County,2009,Annual,4914700,4345200,569500,11.6,N,Final
+County,Los Angeles County,2010,Annual,4917400,4302300,615100,12.5,N,Final
+County,Los Angeles County,2011,Annual,4928500,4327900,600500,12.2,N,Final
+County,Los Angeles County,2012,Annual,4915300,4378400,536900,10.9,N,Final
+County,Los Angeles County,2013,Annual,4967200,4482600,484600,9.8,N,Final
+County,Los Angeles County,2014,Annual,4992600,4580300,412300,8.3,N,Final
+County,Los Angeles County,2015,Annual,4989800,4659700,330100,6.6,N,Final
+County,Los Angeles County,2016,Annual,5041400,4776700,264800,5.3,N,Final
+County,Los Angeles County,2017,Annual,5096500,4853800,242700,4.8,N,Final
+County,Los Angeles County,2018,Annual,5136300,4896500,239800,4.7,N,Final
+Metropolitan Area,Los Angeles Long Beach Glendale MD,2008,Annual,4929000,4555100,373900,7.6,N,Final
+Metropolitan Area,Los Angeles Long Beach Glendale MD,2009,Annual,4914700,4345200,569500,11.6,N,Final
+Metropolitan Area,Los Angeles Long Beach Glendale MD,2010,Annual,4917400,4302300,615100,12.5,N,Final
+Metropolitan Area,Los Angeles Long Beach Glendale MD,2011,Annual,4928500,4327900,600500,12.2,N,Final
+Metropolitan Area,Los Angeles Long Beach Glendale MD,2012,Annual,4915300,4378400,536900,10.9,N,Final
+Metropolitan Area,Los Angeles Long Beach Glendale MD,2013,Annual,4967200,4482600,484600,9.8,N,Final
+Metropolitan Area,Los Angeles Long Beach Glendale MD,2014,Annual,4992600,4580300,412300,8.3,N,Final
+Metropolitan Area,Los Angeles Long Beach Glendale MD,2015,Annual,4989800,4659700,330100,6.6,N,Final
+Metropolitan Area,Los Angeles Long Beach Glendale MD,2016,Annual,5041400,4776700,264800,5.3,N,Final
+Metropolitan Area,Los Angeles Long Beach Glendale MD,2017,Annual,5096500,4853800,242700,4.8,N,Final
+Metropolitan Area,Los Angeles Long Beach Glendale MD,2018,Annual,5136300,4896500,239800,4.7,N,Final
+County,Madera County,2008,Annual,65000,58900,6200,9.5,N,Final
+County,Madera County,2009,Annual,66500,57600,8900,13.4,N,Final
+County,Madera County,2010,Annual,61600,51400,10200,16.6,N,Final
+County,Madera County,2011,Annual,62000,52000,10000,16.2,N,Final
+County,Madera County,2012,Annual,62500,53500,9000,14.4,N,Final
+County,Madera County,2013,Annual,62300,54400,7800,12.6,N,Final
+County,Madera County,2014,Annual,61800,54900,6900,11.2,N,Final
+County,Madera County,2015,Annual,59800,53500,6300,10.5,N,Final
+County,Madera County,2016,Annual,61100,55400,5600,9.2,N,Final
+County,Madera County,2017,Annual,61000,56100,4900,8.1,N,Final
+County,Madera County,2018,Annual,61500,57200,4300,7.0,N,Final
+Metropolitan Area,Madera MSA,2008,Annual,65000,58900,6200,9.5,N,Final
+Metropolitan Area,Madera MSA,2009,Annual,66500,57600,8900,13.4,N,Final
+Metropolitan Area,Madera MSA,2010,Annual,61600,51400,10200,16.6,N,Final
+Metropolitan Area,Madera MSA,2011,Annual,62000,52000,10000,16.2,N,Final
+Metropolitan Area,Madera MSA,2012,Annual,62500,53500,9000,14.4,N,Final
+Metropolitan Area,Madera MSA,2013,Annual,62300,54400,7800,12.6,N,Final
+Metropolitan Area,Madera MSA,2014,Annual,61800,54900,6900,11.2,N,Final
+Metropolitan Area,Madera MSA,2015,Annual,59800,53500,6300,10.5,N,Final
+Metropolitan Area,Madera MSA,2016,Annual,61100,55400,5600,9.2,N,Final
+Metropolitan Area,Madera MSA,2017,Annual,61000,56100,4900,8.1,N,Final
+Metropolitan Area,Madera MSA,2018,Annual,61500,57200,4300,7.0,N,Final
+County,Marin County,2008,Annual,132200,126000,6200,4.7,N,Final
+County,Marin County,2009,Annual,132000,122100,9900,7.5,N,Final
+County,Marin County,2010,Annual,133000,122600,10400,7.9,N,Final
+County,Marin County,2011,Annual,134600,124800,9800,7.3,N,Final
+County,Marin County,2012,Annual,136900,128300,8600,6.3,N,Final
+County,Marin County,2013,Annual,138400,131200,7200,5.2,N,Final
+County,Marin County,2014,Annual,138800,132900,5900,4.3,N,Final
+County,Marin County,2015,Annual,138800,133900,4900,3.6,N,Final
+County,Marin County,2016,Annual,139700,135200,4600,3.3,N,Final
+County,Marin County,2017,Annual,140000,136000,4000,2.9,N,Final
+County,Marin County,2018,Annual,141100,137700,3400,2.4,N,Final
+County,Mariposa County,2008,Annual,9270,8570,700,7.5,N,Final
+County,Mariposa County,2009,Annual,9400,8430,970,10.3,N,Final
+County,Mariposa County,2010,Annual,8710,7580,1130,12.9,N,Final
+County,Mariposa County,2011,Annual,8660,7520,1140,13.2,N,Final
+County,Mariposa County,2012,Annual,8380,7350,1020,12.2,N,Final
+County,Mariposa County,2013,Annual,8230,7360,870,10.5,N,Final
+County,Mariposa County,2014,Annual,8090,7380,710,8.8,N,Final
+County,Mariposa County,2015,Annual,8020,7450,570,7.1,N,Final
+County,Mariposa County,2016,Annual,7570,7050,520,6.9,N,Final
+County,Mariposa County,2017,Annual,7670,7220,450,5.8,N,Final
+County,Mariposa County,2018,Annual,7660,7260,410,5.3,N,Final
+County,Mendocino County,2008,Annual,43210,40230,2980,6.9,N,Final
+County,Mendocino County,2009,Annual,43310,38960,4350,10.0,N,Final
+County,Mendocino County,2010,Annual,41600,36770,4830,11.6,N,Final
+County,Mendocino County,2011,Annual,40950,36280,4670,11.4,N,Final
+County,Mendocino County,2012,Annual,40950,36840,4110,10.0,N,Final
+County,Mendocino County,2013,Annual,40840,37420,3410,8.4,N,Final
+County,Mendocino County,2014,Annual,40380,37560,2820,7.0,N,Final
+County,Mendocino County,2015,Annual,39860,37550,2320,5.8,N,Final
+County,Mendocino County,2016,Annual,39640,37550,2090,5.3,N,Final
+County,Mendocino County,2017,Annual,39630,37840,1790,4.5,N,Final
+County,Mendocino County,2018,Annual,39720,38150,1560,3.9,N,Final
+County,Merced County,2008,Annual,102200,89200,12900,12.6,N,Final
+County,Merced County,2009,Annual,105400,87900,17500,16.6,N,Final
+County,Merced County,2010,Annual,113600,93200,20400,18.0,N,Final
+County,Merced County,2011,Annual,114700,94500,20200,17.6,N,Final
+County,Merced County,2012,Annual,115000,96200,18800,16.3,N,Final
+County,Merced County,2013,Annual,114600,98000,16600,14.5,N,Final
+County,Merced County,2014,Annual,114300,99700,14700,12.8,N,Final
+County,Merced County,2015,Annual,114100,101200,13000,11.4,N,Final
+County,Merced County,2016,Annual,114400,102300,12100,10.6,N,Final
+County,Merced County,2017,Annual,115400,104600,10800,9.4,N,Final
+County,Merced County,2018,Annual,115400,105800,9600,8.3,N,Final
+Metropolitan Area,Merced MSA,2008,Annual,102200,89200,12900,12.6,N,Final
+Metropolitan Area,Merced MSA,2009,Annual,105400,87900,17500,16.6,N,Final
+Metropolitan Area,Merced MSA,2010,Annual,113600,93200,20400,18.0,N,Final
+Metropolitan Area,Merced MSA,2011,Annual,114700,94500,20200,17.6,N,Final
+Metropolitan Area,Merced MSA,2012,Annual,115000,96200,18800,16.3,N,Final
+Metropolitan Area,Merced MSA,2013,Annual,114600,98000,16600,14.5,N,Final
+Metropolitan Area,Merced MSA,2014,Annual,114300,99700,14700,12.8,N,Final
+Metropolitan Area,Merced MSA,2015,Annual,114100,101200,13000,11.4,N,Final
+Metropolitan Area,Merced MSA,2016,Annual,114400,102300,12100,10.6,N,Final
+Metropolitan Area,Merced MSA,2017,Annual,115400,104600,10800,9.4,N,Final
+Metropolitan Area,Merced MSA,2018,Annual,115400,105800,9600,8.3,N,Final
+Metropolitan Area,Modesto MSA,2008,Annual,231700,206000,25700,11.1,N,Final
+Metropolitan Area,Modesto MSA,2009,Annual,234500,198100,36400,15.5,N,Final
+Metropolitan Area,Modesto MSA,2010,Annual,243300,202200,41100,16.9,N,Final
+Metropolitan Area,Modesto MSA,2011,Annual,242300,202400,40000,16.5,N,Final
+Metropolitan Area,Modesto MSA,2012,Annual,242000,205900,36000,14.9,N,Final
+Metropolitan Area,Modesto MSA,2013,Annual,241000,209800,31200,12.9,N,Final
+Metropolitan Area,Modesto MSA,2014,Annual,240600,213700,26900,11.2,N,Final
+Metropolitan Area,Modesto MSA,2015,Annual,241100,218200,22900,9.5,N,Final
+Metropolitan Area,Modesto MSA,2016,Annual,242900,222000,20900,8.6,N,Final
+Metropolitan Area,Modesto MSA,2017,Annual,242500,224400,18100,7.5,N,Final
+Metropolitan Area,Modesto MSA,2018,Annual,243500,227900,15600,6.4,N,Final
+Metropolitan Area,Modesto MSA,2008,Annual,3940,3560,380,9.7,N,Final
+Metropolitan Area,Modesto MSA,2009,Annual,4040,3560,490,12.1,N,Final
+Metropolitan Area,Modesto MSA,2010,Annual,3820,3240,580,15.2,N,Final
+Metropolitan Area,Modesto MSA,2011,Annual,3620,3040,580,16.0,N,Final
+Metropolitan Area,Modesto MSA,2012,Annual,3610,3090,520,14.4,N,Final
+Metropolitan Area,Modesto MSA,2013,Annual,3500,3070,430,12.3,N,Final
+Metropolitan Area,Modesto MSA,2014,Annual,3370,3020,340,10.2,N,Final
+Metropolitan Area,Modesto MSA,2015,Annual,3310,3020,280,8.6,N,Final
+Metropolitan Area,Modesto MSA,2016,Annual,3290,3040,260,7.8,N,Final
+Metropolitan Area,Modesto MSA,2017,Annual,3200,2940,260,8.1,N,Final
+Metropolitan Area,Modesto MSA,2018,Annual,3180,2940,240,7.5,N,Final
+County,Modoc County,2008,Annual,3940,3560,380,9.7,N,Final
+County,Modoc County,2009,Annual,4040,3560,490,12.1,N,Final
+County,Modoc County,2010,Annual,3820,3240,580,15.2,N,Final
+County,Modoc County,2011,Annual,3620,3040,580,16.0,N,Final
+County,Modoc County,2012,Annual,3610,3090,520,14.4,N,Final
+County,Modoc County,2013,Annual,3500,3070,430,12.3,N,Final
+County,Modoc County,2014,Annual,3370,3020,340,10.2,N,Final
+County,Modoc County,2015,Annual,3310,3020,280,8.6,N,Final
+County,Modoc County,2016,Annual,3290,3040,260,7.8,N,Final
+County,Modoc County,2017,Annual,3200,2940,260,8.1,N,Final
+County,Modoc County,2018,Annual,3180,2940,240,7.5,N,Final
+County,Mono County,2008,Annual,8610,8100,510,5.9,N,Final
+County,Mono County,2009,Annual,8740,7970,770,8.8,N,Final
+County,Mono County,2010,Annual,8890,7980,910,10.2,N,Final
+County,Mono County,2011,Annual,8830,7940,890,10.1,N,Final
+County,Mono County,2012,Annual,8400,7530,870,10.3,N,Final
+County,Mono County,2013,Annual,8370,7660,710,8.5,N,Final
+County,Mono County,2014,Annual,8240,7660,580,7.1,N,Final
+County,Mono County,2015,Annual,8250,7740,500,6.1,N,Final
+County,Mono County,2016,Annual,8370,7920,450,5.4,N,Final
+County,Mono County,2017,Annual,8510,8130,380,4.4,N,Final
+County,Mono County,2018,Annual,8520,8200,330,3.8,N,Final
+County,Monterey County,2008,Annual,212100,194100,17900,8.5,N,Final
+County,Monterey County,2009,Annual,215400,190600,24800,11.5,N,Final
+County,Monterey County,2010,Annual,215800,188300,27400,12.7,N,Final
+County,Monterey County,2011,Annual,216600,189100,27400,12.7,N,Final
+County,Monterey County,2012,Annual,217800,192600,25200,11.6,N,Final
+County,Monterey County,2013,Annual,216400,194100,22300,10.3,N,Final
+County,Monterey County,2014,Annual,217700,198000,19700,9.0,N,Final
+County,Monterey County,2015,Annual,218400,200700,17700,8.1,N,Final
+County,Monterey County,2016,Annual,218900,202200,16700,7.6,N,Final
+County,Monterey County,2017,Annual,219900,204200,15700,7.2,N,Final
+County,Monterey County,2018,Annual,224100,210000,14000,6.3,N,Final
+County,Napa County,2008,Annual,75500,71700,3900,5.1,N,Final
+County,Napa County,2009,Annual,75600,69200,6300,8.4,N,Final
+County,Napa County,2010,Annual,70200,63000,7200,10.3,N,Final
+County,Napa County,2011,Annual,70800,63800,6900,9.8,N,Final
+County,Napa County,2012,Annual,71800,65800,6100,8.4,N,Final
+County,Napa County,2013,Annual,72800,67800,5000,6.9,N,Final
+County,Napa County,2014,Annual,73400,69300,4200,5.7,N,Final
+County,Napa County,2015,Annual,73800,70400,3400,4.6,N,Final
+County,Napa County,2016,Annual,73000,69900,3100,4.3,N,Final
+County,Napa County,2017,Annual,73400,70700,2700,3.6,N,Final
+County,Napa County,2018,Annual,74500,72400,2200,2.9,N,Final
+Metropolitan Area,Napa MSA,2008,Annual,75500,71700,3900,5.1,N,Final
+Metropolitan Area,Napa MSA,2009,Annual,75600,69200,6300,8.4,N,Final
+Metropolitan Area,Napa MSA,2010,Annual,70200,63000,7200,10.3,N,Final
+Metropolitan Area,Napa MSA,2011,Annual,70800,63800,6900,9.8,N,Final
+Metropolitan Area,Napa MSA,2012,Annual,71800,65800,6100,8.4,N,Final
+Metropolitan Area,Napa MSA,2013,Annual,72800,67800,5000,6.9,N,Final
+Metropolitan Area,Napa MSA,2014,Annual,73400,69300,4200,5.7,N,Final
+Metropolitan Area,Napa MSA,2015,Annual,73800,70400,3400,4.6,N,Final
+Metropolitan Area,Napa MSA,2016,Annual,73000,69900,3100,4.3,N,Final
+Metropolitan Area,Napa MSA,2017,Annual,73400,70700,2700,3.6,N,Final
+Metropolitan Area,Napa MSA,2018,Annual,74500,72400,2200,2.9,N,Final
+County,Nevada County,2008,Annual,50350,47030,3320,6.6,N,Final
+County,Nevada County,2009,Annual,50380,45200,5170,10.3,N,Final
+County,Nevada County,2010,Annual,48920,43180,5740,11.7,N,Final
+County,Nevada County,2011,Annual,49020,43590,5430,11.1,N,Final
+County,Nevada County,2012,Annual,48360,43650,4710,9.7,N,Final
+County,Nevada County,2013,Annual,48170,44270,3900,8.1,N,Final
+County,Nevada County,2014,Annual,47850,44720,3130,6.5,N,Final
+County,Nevada County,2015,Annual,48050,45440,2600,5.4,N,Final
+County,Nevada County,2016,Annual,48180,45880,2300,4.8,N,Final
+County,Nevada County,2017,Annual,48410,46420,1990,4.1,N,Final
+County,Nevada County,2018,Annual,48870,47180,1690,3.5,N,Final
+Metropolitan Area,Oakland Hayward Berkeley MD,2008,Annual,1280100,1200600,79600,6.2,N,Final
+Metropolitan Area,Oakland Hayward Berkeley MD,2009,Annual,1285700,1155400,130300,10.1,N,Final
+Metropolitan Area,Oakland Hayward Berkeley MD,2010,Annual,1308100,1165000,143000,10.9,N,Final
+Metropolitan Area,Oakland Hayward Berkeley MD,2011,Annual,1316300,1182400,133900,10.2,N,Final
+Metropolitan Area,Oakland Hayward Berkeley MD,2012,Annual,1334200,1216900,117300,8.8,N,Final
+Metropolitan Area,Oakland Hayward Berkeley MD,2013,Annual,1340800,1242400,98400,7.3,N,Final
+Metropolitan Area,Oakland Hayward Berkeley MD,2014,Annual,1347700,1267500,80300,6.0,N,Final
+Metropolitan Area,Oakland Hayward Berkeley MD,2015,Annual,1364800,1298500,66300,4.9,N,Final
+Metropolitan Area,Oakland Hayward Berkeley MD,2016,Annual,1386100,1325600,60500,4.4,N,Final
+Metropolitan Area,Oakland Hayward Berkeley MD,2017,Annual,1399500,1347200,52300,3.7,N,Final
+Metropolitan Area,Oakland Hayward Berkeley MD,2018,Annual,1412800,1369500,43200,3.1,N,Final
+County,Orange County,2008,Annual,1615500,1529700,85800,5.3,N,Final
+County,Orange County,2009,Annual,1589300,1451700,137600,8.7,N,Final
+County,Orange County,2010,Annual,1537200,1387400,149700,9.7,N,Final
+County,Orange County,2011,Annual,1546400,1406400,140000,9.1,N,Final
+County,Orange County,2012,Annual,1562100,1439300,122900,7.9,N,Final
+County,Orange County,2013,Annual,1565300,1462300,103100,6.6,N,Final
+County,Orange County,2014,Annual,1569000,1482900,86100,5.5,N,Final
+County,Orange County,2015,Annual,1585800,1514900,70900,4.5,N,Final
+County,Orange County,2016,Annual,1598800,1534100,64700,4.0,N,Final
+County,Orange County,2017,Annual,1609800,1553400,56400,3.5,N,Final
+County,Orange County,2018,Annual,1625400,1577900,47500,2.9,N,Final
+Metropolitan Area,Oxnard Thousand Oaks Ventura MSA,2008,Annual,428800,401800,27000,6.3,N,Final
+Metropolitan Area,Oxnard Thousand Oaks Ventura MSA,2009,Annual,430300,388800,41500,9.6,N,Final
+Metropolitan Area,Oxnard Thousand Oaks Ventura MSA,2010,Annual,430000,383400,46600,10.8,N,Final
+Metropolitan Area,Oxnard Thousand Oaks Ventura MSA,2011,Annual,431700,387500,44200,10.2,N,Final
+Metropolitan Area,Oxnard Thousand Oaks Ventura MSA,2012,Annual,434700,395200,39500,9.1,N,Final
+Metropolitan Area,Oxnard Thousand Oaks Ventura MSA,2013,Annual,433900,399800,34100,7.9,N,Final
+Metropolitan Area,Oxnard Thousand Oaks Ventura MSA,2014,Annual,430100,401500,28600,6.6,N,Final
+Metropolitan Area,Oxnard Thousand Oaks Ventura MSA,2015,Annual,427600,403500,24100,5.6,N,Final
+Metropolitan Area,Oxnard Thousand Oaks Ventura MSA,2016,Annual,425700,403400,22200,5.2,N,Final
+Metropolitan Area,Oxnard Thousand Oaks Ventura MSA,2017,Annual,424700,405600,19100,4.5,N,Final
+Metropolitan Area,Oxnard Thousand Oaks Ventura MSA,2018,Annual,425700,409700,16100,3.8,N,Final
+County,Placer County,2008,Annual,177000,165500,11500,6.5,N,Final
+County,Placer County,2009,Annual,179700,161400,18300,10.2,N,Final
+County,Placer County,2010,Annual,173300,153200,20100,11.6,N,Final
+County,Placer County,2011,Annual,173700,154900,18800,10.8,N,Final
+County,Placer County,2012,Annual,174900,158500,16400,9.4,N,Final
+County,Placer County,2013,Annual,175800,162300,13600,7.7,N,Final
+County,Placer County,2014,Annual,175500,164500,11000,6.3,N,Final
+County,Placer County,2015,Annual,176500,167600,8900,5.1,N,Final
+County,Placer County,2016,Annual,179800,171700,8100,4.5,N,Final
+County,Placer County,2017,Annual,181700,174700,7000,3.9,N,Final
+County,Placer County,2018,Annual,185200,179400,5800,3.1,N,Final
+County,Plumas County,2008,Annual,9810,8770,1040,10.6,N,Final
+County,Plumas County,2009,Annual,10020,8470,1540,15.4,N,Final
+County,Plumas County,2010,Annual,9150,7480,1670,18.2,N,Final
+County,Plumas County,2011,Annual,8890,7330,1560,17.6,N,Final
+County,Plumas County,2012,Annual,8490,7110,1370,16.1,N,Final
+County,Plumas County,2013,Annual,8260,7110,1140,13.8,N,Final
+County,Plumas County,2014,Annual,8100,7170,930,11.5,N,Final
+County,Plumas County,2015,Annual,7890,7080,810,10.3,N,Final
+County,Plumas County,2016,Annual,7850,7090,760,9.7,N,Final
+County,Plumas County,2017,Annual,7780,7090,690,8.9,N,Final
+County,Plumas County,2018,Annual,7850,7260,590,7.5,N,Final
+Metropolitan Area,Redding MSA,2008,Annual,82600,74300,8300,10.1,N,Final
+Metropolitan Area,Redding MSA,2009,Annual,84000,71900,12000,14.3,N,Final
+Metropolitan Area,Redding MSA,2010,Annual,78500,65300,13200,16.8,N,Final
+Metropolitan Area,Redding MSA,2011,Annual,77000,64800,12300,15.9,N,Final
+Metropolitan Area,Redding MSA,2012,Annual,76000,65200,10800,14.2,N,Final
+Metropolitan Area,Redding MSA,2013,Annual,75300,66400,8900,11.8,N,Final
+Metropolitan Area,Redding MSA,2014,Annual,74900,67700,7200,9.6,N,Final
+Metropolitan Area,Redding MSA,2015,Annual,74200,68400,5800,7.8,N,Final
+Metropolitan Area,Redding MSA,2016,Annual,74300,69100,5200,7.0,N,Final
+Metropolitan Area,Redding MSA,2017,Annual,74100,69800,4300,5.8,N,Final
+Metropolitan Area,Redding MSA,2018,Annual,74200,70500,3700,4.9,N,Final
+County,Riverside County,2008,Annual,911500,833300,78200,8.6,N,Final
+County,Riverside County,2009,Annual,915800,795800,120000,13.1,N,Final
+County,Riverside County,2010,Annual,976400,841300,135200,13.8,N,Final
+County,Riverside County,2011,Annual,978500,849600,128900,13.2,N,Final
+County,Riverside County,2012,Annual,987100,872300,114800,11.6,N,Final
+County,Riverside County,2013,Annual,996400,897700,98700,9.9,N,Final
+County,Riverside County,2014,Annual,1011100,928300,82900,8.2,N,Final
+County,Riverside County,2015,Annual,1034200,965000,69300,6.7,N,Final
+County,Riverside County,2016,Annual,1052400,988100,64300,6.1,N,Final
+County,Riverside County,2017,Annual,1073400,1017100,56300,5.2,N,Final
+County,Riverside County,2018,Annual,1092400,1044600,47800,4.4,N,Final
+Metropolitan Area,Riverside San Bernardino Ontario MSA,2008,Annual,1773600,1626100,147500,8.3,N,Final
+Metropolitan Area,Riverside San Bernardino Ontario MSA,2009,Annual,1773500,1545000,228500,12.9,N,Final
+Metropolitan Area,Riverside San Bernardino Ontario MSA,2010,Annual,1866700,1611200,255500,13.7,N,Final
+Metropolitan Area,Riverside San Bernardino Ontario MSA,2011,Annual,1867000,1623800,243200,13.0,N,Final
+Metropolitan Area,Riverside San Bernardino Ontario MSA,2012,Annual,1879300,1662700,216600,11.5,N,Final
+Metropolitan Area,Riverside San Bernardino Ontario MSA,2013,Annual,1893100,1706800,186300,9.8,N,Final
+Metropolitan Area,Riverside San Bernardino Ontario MSA,2014,Annual,1916500,1761200,155300,8.1,N,Final
+Metropolitan Area,Riverside San Bernardino Ontario MSA,2015,Annual,1954200,1825800,128500,6.6,N,Final
+Metropolitan Area,Riverside San Bernardino Ontario MSA,2016,Annual,1983300,1865200,118000,6.0,N,Final
+Metropolitan Area,Riverside San Bernardino Ontario MSA,2017,Annual,2017700,1914900,102800,5.1,N,Final
+Metropolitan Area,Riverside San Bernardino Ontario MSA,2018,Annual,2053400,1966800,86600,4.2,N,Final
+County,Sacramento County,2008,Annual,679400,630300,49100,7.2,N,Final
+County,Sacramento County,2009,Annual,681100,606100,75000,11.0,N,Final
+County,Sacramento County,2010,Annual,683100,597000,86100,12.6,N,Final
+County,Sacramento County,2011,Annual,680000,597700,82300,12.1,N,Final
+County,Sacramento County,2012,Annual,681300,609700,71600,10.5,N,Final
+County,Sacramento County,2013,Annual,680200,619800,60400,8.9,N,Final
+County,Sacramento County,2014,Annual,679100,629500,49600,7.3,N,Final
+County,Sacramento County,2015,Annual,685100,644100,41100,6.0,N,Final
+County,Sacramento County,2016,Annual,694500,657000,37500,5.4,N,Final
+County,Sacramento County,2017,Annual,698100,665600,32500,4.7,N,Final
+County,Sacramento County,2018,Annual,710400,683500,27000,3.8,N,Final
+Metropolitan Area,Sacramento--Roseville--Arden-Arcade MSA,2008,Annual,1045300,971000,74200,7.1,N,Final
+Metropolitan Area,Sacramento--Roseville--Arden-Arcade MSA,2009,Annual,1051200,937100,114200,10.9,N,Final
+Metropolitan Area,Sacramento--Roseville--Arden-Arcade MSA,2010,Annual,1049800,920100,129700,12.4,N,Final
+Metropolitan Area,Sacramento--Roseville--Arden-Arcade MSA,2011,Annual,1045200,921600,123600,11.8,N,Final
+Metropolitan Area,Sacramento--Roseville--Arden-Arcade MSA,2012,Annual,1047900,939900,108000,10.3,N,Final
+Metropolitan Area,Sacramento--Roseville--Arden-Arcade MSA,2013,Annual,1046500,955800,90700,8.7,N,Final
+Metropolitan Area,Sacramento--Roseville--Arden-Arcade MSA,2014,Annual,1044700,970300,74400,7.1,N,Final
+Metropolitan Area,Sacramento--Roseville--Arden-Arcade MSA,2015,Annual,1053800,992100,61700,5.9,N,Final
+Metropolitan Area,Sacramento--Roseville--Arden-Arcade MSA,2016,Annual,1069300,1012900,56400,5.3,N,Final
+Metropolitan Area,Sacramento--Roseville--Arden-Arcade MSA,2017,Annual,1076500,1027600,48900,4.5,N,Final
+Metropolitan Area,Sacramento--Roseville--Arden-Arcade MSA,2018,Annual,1095800,1055100,40600,3.7,N,Final
+Metropolitan Area,Salinas MSA,2008,Annual,212100,194100,17900,8.5,N,Final
+Metropolitan Area,Salinas MSA,2009,Annual,215400,190600,24800,11.5,N,Final
+Metropolitan Area,Salinas MSA,2010,Annual,215800,188300,27400,12.7,N,Final
+Metropolitan Area,Salinas MSA,2011,Annual,216600,189100,27400,12.7,N,Final
+Metropolitan Area,Salinas MSA,2012,Annual,217800,192600,25200,11.6,N,Final
+Metropolitan Area,Salinas MSA,2013,Annual,216400,194100,22300,10.3,N,Final
+Metropolitan Area,Salinas MSA,2014,Annual,217700,198000,19700,9.0,N,Final
+Metropolitan Area,Salinas MSA,2015,Annual,218400,200700,17700,8.1,N,Final
+Metropolitan Area,Salinas MSA,2016,Annual,218900,202200,16700,7.6,N,Final
+Metropolitan Area,Salinas MSA,2017,Annual,219900,204200,15700,7.2,N,Final
+Metropolitan Area,Salinas MSA,2018,Annual,224100,210000,14000,6.3,N,Final
+County,San Benito County,2008,Annual,24800,22400,2400,9.7,N,Final
+County,San Benito County,2009,Annual,24900,21400,3500,14.0,N,Final
+County,San Benito County,2010,Annual,27900,23700,4200,15.1,N,Final
+County,San Benito County,2011,Annual,28300,24200,4100,14.5,N,Final
+County,San Benito County,2012,Annual,28700,24900,3700,13.0,N,Final
+County,San Benito County,2013,Annual,28900,25700,3200,11.1,N,Final
+County,San Benito County,2014,Annual,29200,26500,2700,9.3,N,Final
+County,San Benito County,2015,Annual,29800,27500,2300,7.6,N,Final
+County,San Benito County,2016,Annual,30500,28400,2000,6.7,N,Final
+County,San Benito County,2017,Annual,30700,28900,1800,5.8,N,Final
+County,San Benito County,2018,Annual,30900,29300,1600,5.1,N,Final
+County,San Bernardino County,2008,Annual,862100,792800,69300,8.0,N,Final
+County,San Bernardino County,2009,Annual,857700,749100,108600,12.7,N,Final
+County,San Bernardino County,2010,Annual,890300,769900,120400,13.5,N,Final
+County,San Bernardino County,2011,Annual,888500,774200,114300,12.9,N,Final
+County,San Bernardino County,2012,Annual,892200,790400,101800,11.4,N,Final
+County,San Bernardino County,2013,Annual,896700,809100,87600,9.8,N,Final
+County,San Bernardino County,2014,Annual,905400,833000,72500,8.0,N,Final
+County,San Bernardino County,2015,Annual,920000,860800,59200,6.4,N,Final
+County,San Bernardino County,2016,Annual,930900,877200,53700,5.8,N,Final
+County,San Bernardino County,2017,Annual,944300,897800,46500,4.9,N,Final
+County,San Bernardino County,2018,Annual,961000,922300,38800,4.0,N,Final
+Metropolitan Area,San Diego Carlsbad MSA,2008,Annual,1545800,1452600,93200,6.0,N,Final
+Metropolitan Area,San Diego Carlsbad MSA,2009,Annual,1554300,1408300,146000,9.4,N,Final
+Metropolitan Area,San Diego Carlsbad MSA,2010,Annual,1515200,1352300,162900,10.8,N,Final
+Metropolitan Area,San Diego Carlsbad MSA,2011,Annual,1524600,1367200,157300,10.3,N,Final
+Metropolitan Area,San Diego Carlsbad MSA,2012,Annual,1540400,1399900,140600,9.1,N,Final
+Metropolitan Area,San Diego Carlsbad MSA,2013,Annual,1543200,1422400,120800,7.8,N,Final
+Metropolitan Area,San Diego Carlsbad MSA,2014,Annual,1540700,1441700,99000,6.4,N,Final
+Metropolitan Area,San Diego Carlsbad MSA,2015,Annual,1550100,1469500,80600,5.2,N,Final
+Metropolitan Area,San Diego Carlsbad MSA,2016,Annual,1564300,1490500,73900,4.7,N,Final
+Metropolitan Area,San Diego Carlsbad MSA,2017,Annual,1574600,1511400,63200,4.0,N,Final
+Metropolitan Area,San Diego Carlsbad MSA,2018,Annual,1592200,1539500,52700,3.3,N,Final
+County,San Diego County,2008,Annual,1545800,1452600,93200,6.0,N,Final
+County,San Diego County,2009,Annual,1554300,1408300,146000,9.4,N,Final
+County,San Diego County,2010,Annual,1515200,1352300,162900,10.8,N,Final
+County,San Diego County,2011,Annual,1524600,1367200,157300,10.3,N,Final
+County,San Diego County,2012,Annual,1540400,1399900,140600,9.1,N,Final
+County,San Diego County,2013,Annual,1543200,1422400,120800,7.8,N,Final
+County,San Diego County,2014,Annual,1540700,1441700,99000,6.4,N,Final
+County,San Diego County,2015,Annual,1550100,1469500,80600,5.2,N,Final
+County,San Diego County,2016,Annual,1564300,1490500,73900,4.7,N,Final
+County,San Diego County,2017,Annual,1574600,1511400,63200,4.0,N,Final
+County,San Diego County,2018,Annual,1592200,1539500,52700,3.3,N,Final
+County,San Francisco County,2008,Annual,457000,433000,24000,5.3,N,Final
+County,San Francisco County,2009,Annual,459400,419500,39900,8.7,N,Final
+County,San Francisco County,2010,Annual,486000,442700,43300,8.9,N,Final
+County,San Francisco County,2011,Annual,494800,454900,39900,8.1,N,Final
+County,San Francisco County,2012,Annual,509400,474900,34500,6.8,N,Final
+County,San Francisco County,2013,Annual,516300,488100,28200,5.5,N,Final
+County,San Francisco County,2014,Annual,528600,505500,23100,4.4,N,Final
+County,San Francisco County,2015,Annual,541900,522200,19700,3.6,N,Final
+County,San Francisco County,2016,Annual,555800,537500,18300,3.3,N,Final
+County,San Francisco County,2017,Annual,564500,548000,16500,2.9,N,Final
+County,San Francisco County,2018,Annual,575600,562000,13500,2.4,N,Final
+Metropolitan Area,San Francisco Redwood City South San Francisco MD,2008,Annual,829300,787100,42200,5.1,N,Final
+Metropolitan Area,San Francisco Redwood City South San Francisco MD,2009,Annual,833600,763000,70600,8.5,N,Final
+Metropolitan Area,San Francisco Redwood City South San Francisco MD,2010,Annual,879000,802900,76200,8.7,N,Final
+Metropolitan Area,San Francisco Redwood City South San Francisco MD,2011,Annual,894600,824700,69900,7.8,N,Final
+Metropolitan Area,San Francisco Redwood City South San Francisco MD,2012,Annual,921500,860600,60900,6.6,N,Final
+Metropolitan Area,San Francisco Redwood City South San Francisco MD,2013,Annual,934400,884200,50200,5.4,N,Final
+Metropolitan Area,San Francisco Redwood City South San Francisco MD,2014,Annual,955500,914400,41100,4.3,N,Final
+Metropolitan Area,San Francisco Redwood City South San Francisco MD,2015,Annual,976600,942000,34600,3.5,N,Final
+Metropolitan Area,San Francisco Redwood City South San Francisco MD,2016,Annual,997900,966100,31800,3.2,N,Final
+Metropolitan Area,San Francisco Redwood City South San Francisco MD,2017,Annual,1010500,981900,28600,2.8,N,Final
+Metropolitan Area,San Francisco Redwood City South San Francisco MD,2018,Annual,1030400,1006900,23600,2.3,N,Final
+County,San Joaquin County,2008,Annual,292800,262300,30600,10.4,N,Final
+County,San Joaquin County,2009,Annual,297800,253300,44500,14.9,N,Final
+County,San Joaquin County,2010,Annual,311400,260000,51400,16.5,N,Final
+County,San Joaquin County,2011,Annual,311400,261000,50400,16.2,N,Final
+County,San Joaquin County,2012,Annual,311800,267100,44800,14.4,N,Final
+County,San Joaquin County,2013,Annual,313100,274600,38500,12.3,N,Final
+County,San Joaquin County,2014,Annual,312000,279200,32900,10.5,N,Final
+County,San Joaquin County,2015,Annual,314600,286600,28000,8.9,N,Final
+County,San Joaquin County,2016,Annual,318500,292600,25900,8.1,N,Final
+County,San Joaquin County,2017,Annual,323600,301100,22600,7.0,N,Final
+County,San Joaquin County,2018,Annual,326400,306800,19600,6.0,N,Final
+Metropolitan Area,San Jose Sunnyvale Santa Clara MSA,2008,Annual,893700,839100,54700,6.1,N,Final
+Metropolitan Area,San Jose Sunnyvale Santa Clara MSA,2009,Annual,899800,803800,96100,10.7,N,Final
+Metropolitan Area,San Jose Sunnyvale Santa Clara MSA,2010,Annual,954400,853800,100600,10.5,N,Final
+Metropolitan Area,San Jose Sunnyvale Santa Clara MSA,2011,Annual,968100,876600,91500,9.5,N,Final
+Metropolitan Area,San Jose Sunnyvale Santa Clara MSA,2012,Annual,987000,907900,79000,8.0,N,Final
+Metropolitan Area,San Jose Sunnyvale Santa Clara MSA,2013,Annual,1000800,934700,66000,6.6,N,Final
+Metropolitan Area,San Jose Sunnyvale Santa Clara MSA,2014,Annual,1019100,965400,53700,5.3,N,Final
+Metropolitan Area,San Jose Sunnyvale Santa Clara MSA,2015,Annual,1042900,998700,44300,4.2,N,Final
+Metropolitan Area,San Jose Sunnyvale Santa Clara MSA,2016,Annual,1059200,1018400,40800,3.9,N,Final
+Metropolitan Area,San Jose Sunnyvale Santa Clara MSA,2017,Annual,1070600,1035400,35200,3.3,N,Final
+Metropolitan Area,San Jose Sunnyvale Santa Clara MSA,2018,Annual,1079700,1050800,28900,2.7,N,Final
+County,San Luis Obispo County,2008,Annual,136400,128500,7900,5.8,N,Final
+County,San Luis Obispo County,2009,Annual,136400,124400,12000,8.8,N,Final
+County,San Luis Obispo County,2010,Annual,133700,120200,13400,10.1,N,Final
+County,San Luis Obispo County,2011,Annual,134400,121500,12900,9.6,N,Final
+County,San Luis Obispo County,2012,Annual,137400,126000,11300,8.2,N,Final
+County,San Luis Obispo County,2013,Annual,138300,128800,9400,6.8,N,Final
+County,San Luis Obispo County,2014,Annual,140200,132400,7800,5.6,N,Final
+County,San Luis Obispo County,2015,Annual,139000,132500,6600,4.7,N,Final
+County,San Luis Obispo County,2016,Annual,139600,133600,6000,4.3,N,Final
+County,San Luis Obispo County,2017,Annual,140600,135600,5000,3.6,N,Final
+County,San Luis Obispo County,2018,Annual,140900,136800,4200,2.9,N,Final
+Metropolitan Area,San Luis Obispo Paso Robles Arroyo Grande MSA,2008,Annual,136400,128500,7900,5.8,N,Final
+Metropolitan Area,San Luis Obispo Paso Robles Arroyo Grande MSA,2009,Annual,136400,124400,12000,8.8,N,Final
+Metropolitan Area,San Luis Obispo Paso Robles Arroyo Grande MSA,2010,Annual,133700,120200,13400,10.1,N,Final
+Metropolitan Area,San Luis Obispo Paso Robles Arroyo Grande MSA,2011,Annual,134400,121500,12900,9.6,N,Final
+Metropolitan Area,San Luis Obispo Paso Robles Arroyo Grande MSA,2012,Annual,137400,126000,11300,8.2,N,Final
+Metropolitan Area,San Luis Obispo Paso Robles Arroyo Grande MSA,2013,Annual,138300,128800,9400,6.8,N,Final
+Metropolitan Area,San Luis Obispo Paso Robles Arroyo Grande MSA,2014,Annual,140200,132400,7800,5.6,N,Final
+Metropolitan Area,San Luis Obispo Paso Robles Arroyo Grande MSA,2015,Annual,139000,132500,6600,4.7,N,Final
+Metropolitan Area,San Luis Obispo Paso Robles Arroyo Grande MSA,2016,Annual,139600,133600,6000,4.3,N,Final
+Metropolitan Area,San Luis Obispo Paso Robles Arroyo Grande MSA,2017,Annual,140600,135600,5000,3.6,N,Final
+Metropolitan Area,San Luis Obispo Paso Robles Arroyo Grande MSA,2018,Annual,140900,136800,4200,2.9,N,Final
+County,San Mateo County,2008,Annual,372400,354200,18200,4.9,N,Final
+County,San Mateo County,2009,Annual,374200,343500,30700,8.2,N,Final
+County,San Mateo County,2010,Annual,393000,360200,32800,8.4,N,Final
+County,San Mateo County,2011,Annual,399900,369800,30000,7.5,N,Final
+County,San Mateo County,2012,Annual,412100,385700,26400,6.4,N,Final
+County,San Mateo County,2013,Annual,418100,396100,22000,5.3,N,Final
+County,San Mateo County,2014,Annual,426900,408900,18000,4.2,N,Final
+County,San Mateo County,2015,Annual,434700,419800,14800,3.4,N,Final
+County,San Mateo County,2016,Annual,442100,428700,13500,3.0,N,Final
+County,San Mateo County,2017,Annual,446100,433900,12100,2.7,N,Final
+County,San Mateo County,2018,Annual,454900,444900,10000,2.2,N,Final
+Metropolitan Area,San Rafael MD,2008,Annual,132200,126000,6200,4.7,N,Final
+Metropolitan Area,San Rafael MD,2009,Annual,132000,122100,9900,7.5,N,Final
+Metropolitan Area,San Rafael MD,2010,Annual,133000,122600,10400,7.9,N,Final
+Metropolitan Area,San Rafael MD,2011,Annual,134600,124800,9800,7.3,N,Final
+Metropolitan Area,San Rafael MD,2012,Annual,136900,128300,8600,6.3,N,Final
+Metropolitan Area,San Rafael MD,2013,Annual,138400,131200,7200,5.2,N,Final
+Metropolitan Area,San Rafael MD,2014,Annual,138800,132900,5900,4.3,N,Final
+Metropolitan Area,San Rafael MD,2015,Annual,138800,133900,4900,3.6,N,Final
+Metropolitan Area,San Rafael MD,2016,Annual,139700,135200,4600,3.3,N,Final
+Metropolitan Area,San Rafael MD,2017,Annual,140000,136000,4000,2.9,N,Final
+Metropolitan Area,San Rafael MD,2018,Annual,141100,137700,3400,2.4,N,Final
+County,Santa Barbara County,2008,Annual,218100,206100,12000,5.5,N,Final
+County,Santa Barbara County,2009,Annual,220000,201900,18100,8.2,N,Final
+County,Santa Barbara County,2010,Annual,212300,191700,20600,9.7,N,Final
+County,Santa Barbara County,2011,Annual,213000,193000,20000,9.4,N,Final
+County,Santa Barbara County,2012,Annual,216000,197900,18100,8.4,N,Final
+County,Santa Barbara County,2013,Annual,217300,201700,15700,7.2,N,Final
+County,Santa Barbara County,2014,Annual,217800,204500,13300,6.1,N,Final
+County,Santa Barbara County,2015,Annual,217300,205800,11500,5.3,N,Final
+County,Santa Barbara County,2016,Annual,215400,204500,10900,5.1,N,Final
+County,Santa Barbara County,2017,Annual,215500,205700,9700,4.5,N,Final
+County,Santa Barbara County,2018,Annual,216700,208300,8400,3.9,N,Final
+County,Santa Clara County,2008,Annual,868900,816600,52300,6.0,N,Final
+County,Santa Clara County,2009,Annual,875000,782400,92600,10.6,N,Final
+County,Santa Clara County,2010,Annual,926500,830100,96400,10.4,N,Final
+County,Santa Clara County,2011,Annual,939900,852400,87400,9.3,N,Final
+County,Santa Clara County,2012,Annual,958300,883000,75300,7.9,N,Final
+County,Santa Clara County,2013,Annual,971900,909000,62800,6.5,N,Final
+County,Santa Clara County,2014,Annual,989900,938900,51000,5.2,N,Final
+County,Santa Clara County,2015,Annual,1013200,971100,42000,4.1,N,Final
+County,Santa Clara County,2016,Annual,1028700,989900,38800,3.8,N,Final
+County,Santa Clara County,2017,Annual,1039900,1006500,33400,3.2,N,Final
+County,Santa Clara County,2018,Annual,1048800,1021500,27300,2.6,N,Final
+County,Santa Cruz County,2008,Annual,146100,135300,10800,7.4,N,Final
+County,Santa Cruz County,2009,Annual,147700,131300,16400,11.1,N,Final
+County,Santa Cruz County,2010,Annual,141700,122900,18800,13.3,N,Final
+County,Santa Cruz County,2011,Annual,141300,122900,18500,13.1,N,Final
+County,Santa Cruz County,2012,Annual,142100,125300,16800,11.8,N,Final
+County,Santa Cruz County,2013,Annual,142100,127500,14600,10.3,N,Final
+County,Santa Cruz County,2014,Annual,142300,129900,12400,8.7,N,Final
+County,Santa Cruz County,2015,Annual,143300,132600,10700,7.5,N,Final
+County,Santa Cruz County,2016,Annual,143900,133900,10000,7.0,N,Final
+County,Santa Cruz County,2017,Annual,142900,134800,8100,5.7,N,Final
+County,Santa Cruz County,2018,Annual,142600,135600,7000,4.9,N,Final
+County,Santa Maria Santa Barbara MSA,2008,Annual,218100,206100,12000,5.5,N,Final
+County,Santa Maria Santa Barbara MSA,2009,Annual,220000,201900,18100,8.2,N,Final
+County,Santa Maria Santa Barbara MSA,2010,Annual,212300,191700,20600,9.7,N,Final
+County,Santa Maria Santa Barbara MSA,2011,Annual,213000,193000,20000,9.4,N,Final
+County,Santa Maria Santa Barbara MSA,2012,Annual,216000,197900,18100,8.4,N,Final
+County,Santa Maria Santa Barbara MSA,2013,Annual,217300,201700,15700,7.2,N,Final
+County,Santa Maria Santa Barbara MSA,2014,Annual,217800,204500,13300,6.1,N,Final
+County,Santa Maria Santa Barbara MSA,2015,Annual,217300,205800,11500,5.3,N,Final
+County,Santa Maria Santa Barbara MSA,2016,Annual,215400,204500,10900,5.1,N,Final
+County,Santa Maria Santa Barbara MSA,2017,Annual,215500,205700,9700,4.5,N,Final
+County,Santa Maria Santa Barbara MSA,2018,Annual,216700,208300,8400,3.9,N,Final
+Metropolitan Area,Santa Rosa MSA,2008,Annual,259600,244700,15000,5.8,N,Final
+Metropolitan Area,Santa Rosa MSA,2009,Annual,256500,232400,24100,9.4,N,Final
+Metropolitan Area,Santa Rosa MSA,2010,Annual,244600,218100,26500,10.8,N,Final
+Metropolitan Area,Santa Rosa MSA,2011,Annual,246200,221000,25200,10.2,N,Final
+Metropolitan Area,Santa Rosa MSA,2012,Annual,246300,224500,21800,8.9,N,Final
+Metropolitan Area,Santa Rosa MSA,2013,Annual,250000,232200,17800,7.1,N,Final
+Metropolitan Area,Santa Rosa MSA,2014,Annual,256100,241800,14400,5.6,N,Final
+Metropolitan Area,Santa Rosa MSA,2015,Annual,257900,246300,11600,4.5,N,Final
+Metropolitan Area,Santa Rosa MSA,2016,Annual,259400,249100,10300,4.0,N,Final
+Metropolitan Area,Santa Rosa MSA,2017,Annual,260400,251600,8800,3.4,N,Final
+Metropolitan Area,Santa Rosa MSA,2018,Annual,262300,255200,7200,2.7,N,Final
+County,Shasta County,2008,Annual,82600,74300,8300,10.1,N,Final
+County,Shasta County,2009,Annual,84000,71900,12000,14.3,N,Final
+County,Shasta County,2010,Annual,78500,65300,13200,16.8,N,Final
+County,Shasta County,2011,Annual,77000,64800,12300,15.9,N,Final
+County,Shasta County,2012,Annual,76000,65200,10800,14.2,N,Final
+County,Shasta County,2013,Annual,75300,66400,8900,11.8,N,Final
+County,Shasta County,2014,Annual,74900,67700,7200,9.6,N,Final
+County,Shasta County,2015,Annual,74200,68400,5800,7.8,N,Final
+County,Shasta County,2016,Annual,74300,69100,5200,7.0,N,Final
+County,Shasta County,2017,Annual,74100,69800,4300,5.8,N,Final
+County,Shasta County,2018,Annual,74200,70500,3700,4.9,N,Final
+County,Sierra County,2008,Annual,1590,1420,170,10.6,N,Final
+County,Sierra County,2009,Annual,1600,1360,240,14.9,N,Final
+County,Sierra County,2010,Annual,1610,1360,250,15.3,N,Final
+County,Sierra County,2011,Annual,1600,1360,240,14.9,N,Final
+County,Sierra County,2012,Annual,1470,1260,210,14.4,N,Final
+County,Sierra County,2013,Annual,1450,1270,190,12.7,N,Final
+County,Sierra County,2014,Annual,1410,1270,140,10.1,N,Final
+County,Sierra County,2015,Annual,1360,1240,120,8.7,N,Final
+County,Sierra County,2016,Annual,1330,1230,100,7.6,N,Final
+County,Sierra County,2017,Annual,1290,1210,80,6.5,N,Final
+County,Sierra County,2018,Annual,1280,1200,80,6.0,N,Final
+County,Siskiyou County,2008,Annual,19200,17240,1960,10.2,N,Final
+County,Siskiyou County,2009,Annual,19630,16830,2800,14.2,N,Final
+County,Siskiyou County,2010,Annual,19630,16320,3300,16.8,N,Final
+County,Siskiyou County,2011,Annual,19440,16130,3300,17.0,N,Final
+County,Siskiyou County,2012,Annual,18880,15930,2950,15.6,N,Final
+County,Siskiyou County,2013,Annual,18290,15890,2400,13.1,N,Final
+County,Siskiyou County,2014,Annual,18000,16010,1990,11.1,N,Final
+County,Siskiyou County,2015,Annual,17890,16220,1670,9.4,N,Final
+County,Siskiyou County,2016,Annual,17910,16390,1520,8.5,N,Final
+County,Siskiyou County,2017,Annual,17820,16530,1290,7.2,N,Final
+County,Siskiyou County,2018,Annual,17410,16240,1160,6.7,N,Final
+County,Solano County,2008,Annual,211100,196500,14600,6.9,N,Final
+County,Solano County,2009,Annual,214500,192200,22300,10.4,N,Final
+County,Solano County,2010,Annual,202400,177000,25400,12.6,N,Final
+County,Solano County,2011,Annual,202200,177600,24600,12.2,N,Final
+County,Solano County,2012,Annual,202700,181000,21700,10.7,N,Final
+County,Solano County,2013,Annual,203100,184600,18400,9.1,N,Final
+County,Solano County,2014,Annual,202800,187500,15200,7.5,N,Final
+County,Solano County,2015,Annual,205000,192500,12600,6.1,N,Final
+County,Solano County,2016,Annual,207400,196000,11400,5.5,N,Final
+County,Solano County,2017,Annual,208400,198500,9900,4.8,N,Final
+County,Solano County,2018,Annual,209700,201600,8200,3.9,N,Final
+County,Sonoma County,2008,Annual,259600,244700,15000,5.8,N,Final
+County,Sonoma County,2009,Annual,256500,232400,24100,9.4,N,Final
+County,Sonoma County,2010,Annual,244600,218100,26500,10.8,N,Final
+County,Sonoma County,2011,Annual,246200,221000,25200,10.2,N,Final
+County,Sonoma County,2012,Annual,246300,224500,21800,8.9,N,Final
+County,Sonoma County,2013,Annual,250000,232200,17800,7.1,N,Final
+County,Sonoma County,2014,Annual,256100,241800,14400,5.6,N,Final
+County,Sonoma County,2015,Annual,257900,246300,11600,4.5,N,Final
+County,Sonoma County,2016,Annual,259400,249100,10300,4.0,N,Final
+County,Sonoma County,2017,Annual,260400,251600,8800,3.4,N,Final
+County,Sonoma County,2018,Annual,262300,255200,7200,2.7,N,Final
+County,Stanislaus County,2008,Annual,231700,206000,25700,11.1,N,Final
+County,Stanislaus County,2009,Annual,234500,198100,36400,15.5,N,Final
+County,Stanislaus County,2010,Annual,243300,202200,41100,16.9,N,Final
+County,Stanislaus County,2011,Annual,242300,202400,40000,16.5,N,Final
+County,Stanislaus County,2012,Annual,242000,205900,36000,14.9,N,Final
+County,Stanislaus County,2013,Annual,241000,209800,31200,12.9,N,Final
+County,Stanislaus County,2014,Annual,240600,213700,26900,11.2,N,Final
+County,Stanislaus County,2015,Annual,241100,218200,22900,9.5,N,Final
+County,Stanislaus County,2016,Annual,242900,222000,20900,8.6,N,Final
+County,Stanislaus County,2017,Annual,242500,224400,18100,7.5,N,Final
+County,Stanislaus County,2018,Annual,243500,227900,15600,6.4,N,Final
+Metropolitan Area,Stockton Lodi MSA,2008,Annual,292800,262300,30600,10.4,N,Final
+Metropolitan Area,Stockton Lodi MSA,2009,Annual,297800,253300,44500,14.9,N,Final
+Metropolitan Area,Stockton Lodi MSA,2010,Annual,311400,260000,51400,16.5,N,Final
+Metropolitan Area,Stockton Lodi MSA,2011,Annual,311400,261000,50400,16.2,N,Final
+Metropolitan Area,Stockton Lodi MSA,2012,Annual,311800,267100,44800,14.4,N,Final
+Metropolitan Area,Stockton Lodi MSA,2013,Annual,313100,274600,38500,12.3,N,Final
+Metropolitan Area,Stockton Lodi MSA,2014,Annual,312000,279200,32900,10.5,N,Final
+Metropolitan Area,Stockton Lodi MSA,2015,Annual,314600,286600,28000,8.9,N,Final
+Metropolitan Area,Stockton Lodi MSA,2016,Annual,318500,292600,25900,8.1,N,Final
+Metropolitan Area,Stockton Lodi MSA,2017,Annual,323600,301100,22600,7.0,N,Final
+Metropolitan Area,Stockton Lodi MSA,2018,Annual,326400,306800,19600,6.0,N,Final
+County,Sutter County,2008,Annual,41100,36000,5100,12.4,N,Final
+County,Sutter County,2009,Annual,41900,35000,6900,16.5,N,Final
+County,Sutter County,2010,Annual,46000,37500,8400,18.4,N,Final
+County,Sutter County,2011,Annual,45900,37600,8300,18.2,N,Final
+County,Sutter County,2012,Annual,45600,37900,7700,16.8,N,Final
+County,Sutter County,2013,Annual,44800,38200,6500,14.6,N,Final
+County,Sutter County,2014,Annual,44300,38700,5600,12.6,N,Final
+County,Sutter County,2015,Annual,44800,40000,4800,10.7,N,Final
+County,Sutter County,2016,Annual,45000,40600,4400,9.7,N,Final
+County,Sutter County,2017,Annual,45100,41100,3900,8.7,N,Final
+County,Sutter County,2018,Annual,45500,42100,3400,7.5,N,Final
+County,Tehama County,2008,Annual,25150,22830,2320,9.2,N,Final
+County,Tehama County,2009,Annual,25340,21890,3460,13.6,N,Final
+County,Tehama County,2010,Annual,25710,21750,3960,15.4,N,Final
+County,Tehama County,2011,Annual,25570,21740,3830,15.0,N,Final
+County,Tehama County,2012,Annual,25250,21780,3470,13.7,N,Final
+County,Tehama County,2013,Annual,25090,22170,2910,11.6,N,Final
+County,Tehama County,2014,Annual,25080,22670,2410,9.6,N,Final
+County,Tehama County,2015,Annual,25040,23060,1980,7.9,N,Final
+County,Tehama County,2016,Annual,25090,23300,1790,7.1,N,Final
+County,Tehama County,2017,Annual,25570,23940,1620,6.4,N,Final
+County,Tehama County,2018,Annual,25630,24180,1450,5.7,N,Final
+County,Trinity County,2008,Annual,4850,4230,620,12.8,N,Final
+County,Trinity County,2009,Annual,4990,4150,840,16.8,N,Final
+County,Trinity County,2010,Annual,5420,4500,920,17.0,N,Final
+County,Trinity County,2011,Annual,5380,4490,900,16.7,N,Final
+County,Trinity County,2012,Annual,5330,4550,780,14.6,N,Final
+County,Trinity County,2013,Annual,5190,4570,620,11.9,N,Final
+County,Trinity County,2014,Annual,5170,4680,490,9.4,N,Final
+County,Trinity County,2015,Annual,5140,4750,400,7.8,N,Final
+County,Trinity County,2016,Annual,5000,4640,350,7.1,N,Final
+County,Trinity County,2017,Annual,4810,4520,300,6.2,N,Final
+County,Trinity County,2018,Annual,4710,4440,270,5.7,N,Final
+County,Tulare County,2008,Annual,198900,177400,21500,10.8,N,Final
+County,Tulare County,2009,Annual,203200,173000,30200,14.9,N,Final
+County,Tulare County,2010,Annual,203000,168100,34900,17.2,N,Final
+County,Tulare County,2011,Annual,203500,168700,34800,17.1,N,Final
+County,Tulare County,2012,Annual,201300,168800,32500,16.2,N,Final
+County,Tulare County,2013,Annual,201100,172200,28900,14.4,N,Final
+County,Tulare County,2014,Annual,198200,172100,26000,13.1,N,Final
+County,Tulare County,2015,Annual,202200,178700,23500,11.6,N,Final
+County,Tulare County,2016,Annual,203400,180700,22700,11.2,N,Final
+County,Tulare County,2017,Annual,204800,183500,21400,10.4,N,Final
+County,Tulare County,2018,Annual,204600,184900,19600,9.6,N,Final
+County,Tuolumne County,2008,Annual,25770,23700,2060,8.0,N,Final
+County,Tuolumne County,2009,Annual,25720,22590,3130,12.2,N,Final
+County,Tuolumne County,2010,Annual,22620,19170,3440,15.2,N,Final
+County,Tuolumne County,2011,Annual,22730,19440,3280,14.5,N,Final
+County,Tuolumne County,2012,Annual,22320,19420,2900,13.0,N,Final
+County,Tuolumne County,2013,Annual,21750,19410,2340,10.8,N,Final
+County,Tuolumne County,2014,Annual,21580,19710,1870,8.6,N,Final
+County,Tuolumne County,2015,Annual,21550,20030,1520,7.0,N,Final
+County,Tuolumne County,2016,Annual,21580,20240,1340,6.2,N,Final
+County,Tuolumne County,2017,Annual,21420,20270,1150,5.4,N,Final
+County,Tuolumne County,2018,Annual,21340,20360,980,4.6,N,Final
+Metropolitan Area,Vallejo Fairfield MSA,2008,Annual,211100,196500,14600,6.9,N,Final
+Metropolitan Area,Vallejo Fairfield MSA,2009,Annual,214500,192200,22300,10.4,N,Final
+Metropolitan Area,Vallejo Fairfield MSA,2010,Annual,202400,177000,25400,12.6,N,Final
+Metropolitan Area,Vallejo Fairfield MSA,2011,Annual,202200,177600,24600,12.2,N,Final
+Metropolitan Area,Vallejo Fairfield MSA,2012,Annual,202700,181000,21700,10.7,N,Final
+Metropolitan Area,Vallejo Fairfield MSA,2013,Annual,203100,184600,18400,9.1,N,Final
+Metropolitan Area,Vallejo Fairfield MSA,2014,Annual,202800,187500,15200,7.5,N,Final
+Metropolitan Area,Vallejo Fairfield MSA,2015,Annual,205000,192500,12600,6.1,N,Final
+Metropolitan Area,Vallejo Fairfield MSA,2016,Annual,207400,196000,11400,5.5,N,Final
+Metropolitan Area,Vallejo Fairfield MSA,2017,Annual,208400,198500,9900,4.8,N,Final
+Metropolitan Area,Vallejo Fairfield MSA,2018,Annual,209700,201600,8200,3.9,N,Final
+County,Ventura County,2008,Annual,428800,401800,27000,6.3,N,Final
+County,Ventura County,2009,Annual,430300,388800,41500,9.6,N,Final
+County,Ventura County,2010,Annual,430000,383400,46600,10.8,N,Final
+County,Ventura County,2011,Annual,431700,387500,44200,10.2,N,Final
+County,Ventura County,2012,Annual,434700,395200,39500,9.1,N,Final
+County,Ventura County,2013,Annual,433900,399800,34100,7.9,N,Final
+County,Ventura County,2014,Annual,430100,401500,28600,6.6,N,Final
+County,Ventura County,2015,Annual,427600,403500,24100,5.6,N,Final
+County,Ventura County,2016,Annual,425700,403400,22200,5.2,N,Final
+County,Ventura County,2017,Annual,424700,405600,19100,4.5,N,Final
+County,Ventura County,2018,Annual,425700,409700,16100,3.8,N,Final
+Metropolitan Area,Visalia Porterville MSA,2008,Annual,198900,177400,21500,10.8,N,Final
+Metropolitan Area,Visalia Porterville MSA,2009,Annual,203200,173000,30200,14.9,N,Final
+Metropolitan Area,Visalia Porterville MSA,2010,Annual,203000,168100,34900,17.2,N,Final
+Metropolitan Area,Visalia Porterville MSA,2011,Annual,203500,168700,34800,17.1,N,Final
+Metropolitan Area,Visalia Porterville MSA,2012,Annual,201300,168800,32500,16.2,N,Final
+Metropolitan Area,Visalia Porterville MSA,2013,Annual,201100,172200,28900,14.4,N,Final
+Metropolitan Area,Visalia Porterville MSA,2014,Annual,198200,172100,26000,13.1,N,Final
+Metropolitan Area,Visalia Porterville MSA,2015,Annual,202200,178700,23500,11.6,N,Final
+Metropolitan Area,Visalia Porterville MSA,2016,Annual,203400,180700,22700,11.2,N,Final
+Metropolitan Area,Visalia Porterville MSA,2017,Annual,204800,183500,21400,10.4,N,Final
+Metropolitan Area,Visalia Porterville MSA,2018,Annual,204600,184900,19600,9.6,N,Final
+County,Yolo County,2008,Annual,98300,91000,7300,7.4,N,Final
+County,Yolo County,2009,Annual,98700,87900,10900,11.0,N,Final
+County,Yolo County,2010,Annual,102200,89800,12400,12.1,N,Final
+County,Yolo County,2011,Annual,101800,89800,12000,11.8,N,Final
+County,Yolo County,2012,Annual,102600,91700,10900,10.6,N,Final
+County,Yolo County,2013,Annual,101800,92700,9200,9.0,N,Final
+County,Yolo County,2014,Annual,102200,94500,7700,7.5,N,Final
+County,Yolo County,2015,Annual,104200,97500,6700,6.5,N,Final
+County,Yolo County,2016,Annual,106200,99900,6200,5.9,N,Final
+County,Yolo County,2017,Annual,106800,101400,5400,5.1,N,Final
+County,Yolo County,2018,Annual,108500,104000,4600,4.2,N,Final
+Metropolitan Area,Yuba City MSA,2008,Annual,68800,60400,8400,12.2,N,Final
+Metropolitan Area,Yuba City MSA,2009,Annual,70200,58600,11700,16.6,N,Final
+Metropolitan Area,Yuba City MSA,2010,Annual,75000,61400,13600,18.1,N,Final
+Metropolitan Area,Yuba City MSA,2011,Annual,74900,61600,13300,17.7,N,Final
+Metropolitan Area,Yuba City MSA,2012,Annual,74400,62300,12100,16.3,N,Final
+Metropolitan Area,Yuba City MSA,2013,Annual,73000,62800,10300,14.1,N,Final
+Metropolitan Area,Yuba City MSA,2014,Annual,72200,63500,8700,12.1,N,Final
+Metropolitan Area,Yuba City MSA,2015,Annual,72500,65100,7400,10.1,N,Final
+Metropolitan Area,Yuba City MSA,2016,Annual,73200,66400,6800,9.3,N,Final
+Metropolitan Area,Yuba City MSA,2017,Annual,73800,67800,6000,8.2,N,Final
+Metropolitan Area,Yuba City MSA,2018,Annual,74600,69300,5300,7.1,N,Final
+County,Yuba County,2008,Annual,27700,24400,3300,11.9,N,Final
+County,Yuba County,2009,Annual,28300,23600,4800,16.8,N,Final
+County,Yuba County,2010,Annual,29100,23900,5200,17.8,N,Final
+County,Yuba County,2011,Annual,28900,24000,4900,17.0,N,Final
+County,Yuba County,2012,Annual,28800,24400,4400,15.4,N,Final
+County,Yuba County,2013,Annual,28300,24500,3700,13.2,N,Final
+County,Yuba County,2014,Annual,27900,24800,3100,11.2,N,Final
+County,Yuba County,2015,Annual,27700,25200,2600,9.3,N,Final
+County,Yuba County,2016,Annual,28200,25700,2400,8.6,N,Final
+County,Yuba County,2017,Annual,28800,26600,2100,7.4,N,Final
+County,Yuba County,2018,Annual,29100,27200,1900,6.4,N,Final

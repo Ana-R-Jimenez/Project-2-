@@ -1,5 +1,5 @@
 // Local Path for the CSV file
-const CSVPATH_LOCAL_UNEPMPLOYMENT_STATS = "data/Local_Area_Unemployment_Statistics__LAUS_.csv" 
+const CSVPATH_LOCAL_UNEPMPLOYMENT_STATS = "data/yearly-unemployment-data.csv" 
 const CSVPATH_CLEANED_STATS = "data/new_cleaned_LAUS.csv"
 // RESPONSE - a promise result of all the data in the cvs file.
 
@@ -19,7 +19,7 @@ function createGraph(areaType) {
   
   d3.csv(CSVPATH_CLEANED_STATS).then(function(data){
     var filteredAreaType = data.filter(aType => aType.Area_Type ==areaType);
-
+    console.log(filteredAreaType)
     var YearData = filteredAreaType.map(d => d.Year);
     // console.log(filteredYears)
     var unsortedYearLabel  = [... new Set(YearData)]

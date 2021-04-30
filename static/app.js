@@ -1,6 +1,6 @@
 // Local Path for the CSV file
 const CSVPATH_LOCAL_UNEPMPLOYMENT_STATS = "data/Local_Area_Unemployment_Statistics__LAUS_.csv" 
-const CSVPATH_CLEANED_STATS = "data/cleaned_LAUS.csv"
+const CSVPATH_CLEANED_STATS = "data/new_cleaned_LAUS.csv"
 // RESPONSE - a promise result of all the data in the cvs file.
 
 //hardcode dropdown in html since there are only 3 options. 

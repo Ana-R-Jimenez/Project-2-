@@ -39,6 +39,7 @@ For our analysis we used years 2008-2018 to observe the 3 main categories of une
 5.Creating charts in chart js.
 
 6.Analyzing graphs
+7.
 
 
 
@@ -51,6 +52,7 @@ County  and Metropolitan  Area types closely follow the trend of the state data.
 
 
 ### Conclusions:
+
 
 After great economic upheaval unemployment reaches an all time high and it takes  a few years to normalize.
 

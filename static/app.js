@@ -24,13 +24,13 @@ function createGraph(areaType) {
     // console.log(filteredYears)
     var unsortedYearLabel  = [... new Set(YearData)]
     var sortedYearLabel  = [... new Set(YearData)].sort()
-
+    //console.log(unsortedYearLabel)
     var unemploymentData = filteredAreaType.map(d => d.Unemployment);
     //var maxUnemploymentData = unemploymentData.max()
-    console.log(YearData)
+    //console.log(YearData)
     console.log(unemploymentData)
 
-    
+    var groupUnemploy = unemploymentData.reduce((a,b) =>a+b,0)
 
     const ctx = document.getElementById('mycanvas').getContext('2d');
     //const chart = new Chart(ctx,{
@@ -41,15 +41,21 @@ function createGraph(areaType) {
       data: {
         labels: unsortedYearLabel,
         datasets: [{
-          data: unemploymentData
+          data: unemploymentData,
+          backgroundColor:[
+            'rgba(224,20,20,0.3)',
+            'rgba(255,221,68,0.3)',
+            'rgba(176,225,25,0.3)',
+            'rgba(40,255,25,0.3)',
+            'rgba(63,217,158,0.3)',
+            'rgba(147,255,239,0.3)',
+            'rgba(12,82,186,0.3)',
+            'rgba(5,0,255,0.3)',
+            'rgba(196,105,255,0.3)',
+            'rgba(205,12,213,0.3)',
+            'rgba(255,27,185,0.3)'
+          ]
         }]
-      },
-      options: {
-        plugins: {
-          colorschemes: {
-            scheme: 'brewer.PuOr10'
-          }
-        }
       }
     })
   }); 

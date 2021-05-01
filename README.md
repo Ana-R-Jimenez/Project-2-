@@ -27,11 +27,17 @@ For our analysis we used years 2008-2018 to observe the 3 main categories of une
 
 
 ### Methodology:
-1.Reading  data(csv).
+
+1.Reading  data(csv)
+
 2.Creating index.html
+
 3.Filtering data using Python and Jupyter Notebook(filtering “Seasonally Adjusted Column” and Status Preliminary/Final filtering for the years and group by area types was made in jupyter.notebook
+
 4.Filtering data using JavaScript(as a result an array of distinct area types was created)
+
 5.Creating charts in chart js.
+
 6.Analyzing graphs
 
 

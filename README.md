@@ -1,6 +1,6 @@
 # Project-2-
 ###
-California Unemployment Dashboard
+### California Unemployment Dashboard
 
 Collaborators: Ana Jimenez, Jade Jimenez, Kate Bessonova-Belmont
 

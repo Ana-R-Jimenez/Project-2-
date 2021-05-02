@@ -3,13 +3,6 @@ const CSVPATH_LOCAL_UNEPMPLOYMENT_STATS = "data/yearly-unemployment-data.csv"
 const CSVPATH_CLEANED_STATS = "data/new_cleaned_LAUS.csv"
 // RESPONSE - a promise result of all the data in the cvs file.
 
-//hardcode dropdown in html since there are only 3 options. 
-
-// This function populates the HTML select element with the correct data
-// @Kate
- 
-
-// @Jade
 function createGraph(areaType) {
   //var unempLabels = areaType.map(row => row.Unemployment);
 
@@ -56,6 +49,24 @@ function createGraph(areaType) {
             'rgba(255,27,185,0.3)'
           ]
         }]
+      },
+      options: {
+        scales: {
+        xAxes: [{
+          //display:true,
+          scaleLabel:{
+            display:true,
+            labelString: 'Year'
+          }
+        }],
+          yAxes: [{
+          //display: true,
+          scaleLabel: {
+          display: true,
+          labelString: 'Sum of Unemployment by Area'
+          }
+        }],
+      }
       }
     })
   }); 
@@ -88,14 +99,6 @@ function init() {
 
  init()
 
-
-
-
-
-
-
-      // Step 1: Set up our chart
-//= ================================
     var svgWidth = 1060;
     var svgHeight = 500;
 
@@ -118,9 +121,6 @@ function init() {
 
     var chartGroup = svg.append("g")
        .attr("transform", `translate(${margin.left}, ${margin.top})`);
-
-
-
 
 // }).catch(function(error) {
 //   console.log(error);

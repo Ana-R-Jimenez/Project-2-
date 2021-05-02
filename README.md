@@ -3,9 +3,13 @@ California Unemployment Dashboard
 Collaborators: Ana Jimenez, Jade Jimenez, Kate Bessonova-Belmont
 
 Datasource: Local Area Unemployment Statistics (LAUS)
-https://data.ca.gov/dataset/local-area-unemployment-statistics-laus/resource/b4bc4656-7866-420f-8d87-4eda4c9996ed This dataset gives a clear view of unemployment pre-pandemic and the data for 2020 hadn't reached its final versions. The data is not seasonally adjusted.
+https://data.ca.gov/dataset/local-area-unemployment-statistics-laus/resource/b4bc4656-7866-420f-8d87-4eda4c9996ed 
+
+This dataset gives a clear view of unemployment pre-pandemic and the data for 2020 hadn't reached its final versions. 
+The data is not seasonally adjusted.
 
 Hypothesis: Do the individual areas in California follow the states overall trend?
+
 Introduction:
 Originally our goal was to observe Covid trend in unemployment comparing to the previous years but the data was not complete for the 2020 to make proper conclusions.
 
@@ -14,6 +18,7 @@ Created dashboard represents California Local Unemployment Statistics. Choosing 
 For our analysis we used years 2008-2018 to observe the 3 main categories of unemployment rates for state, county, metropolitan areas.
 
 Methodology:
+
 1.Reading data(csv)
 
 2.Creating index.html
@@ -24,10 +29,14 @@ Methodology:
 
 5.Creating charts in chart js.
 
-6.Analyzing graphs 7.
+6.Analyzing graphs.
+
+
 
 Analyzing graphs:
+
 County and Metropolitan Area types closely follow the trend of the state data. The highest unemployment rate was fixed in 2010, the lowest in 2018.
+
 
 Conclusions:
 After great economic upheaval unemployment reaches an all time high and it takes a few years to normalize.
